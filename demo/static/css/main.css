@@ -1,0 +1,13 @@
+body {
+    padding-top: 50px;
+  }
+
+.top-pad {
+    padding: 40px 15px;
+    text-align: center;
+  }
+
+.container {
+    margin: 0 auto; /* This centers the container horizontally */
+    max-width: 800px; /* Adjust the maximum width of the container as needed */
+}
