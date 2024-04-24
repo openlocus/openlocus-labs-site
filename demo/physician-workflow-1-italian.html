@@ -1,0 +1,3219 @@
+<!DOCTYPE html>
+<html lang="it" class="translated-ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registri di chat</title>
+  <link href="static/css/new-style.css" rel="stylesheet">
+  <link rel="icon" href="static/logo-favicon.png">
+  <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> -->
+
+</head>
+
+<body>
+
+<div class="aspect-auto">
+  <!-- Title -->
+  <div class="flex justify-center items-center dark:bg-slate-900">
+    <div class="w-1/2">
+      <img src="static/logo.png" class="pl-5 w-90 h-10">
+    </div>
+    <div class="w-1/2">
+      <p class="text-5l dark:text-slate-400"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+        Flusso di lavoro del medico
+      </font></font></p>
+    </div>
+  </div>
+    <div class="flex justify-center items-center dark:bg-slate-900">
+	<p class="context-style dark:text-slate-400"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+	  Benvenuti alla demo del nostro innovativo sistema RAG (retrieval augmented generation) progettato per assistere i medici nell'accesso alle informazioni mediche in modo rapido ed efficace.
+	</font></font></p>
+    </div>
+    <hr>
+  <!-- Prompt Messages -->
+  
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/user-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">User</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Quali sono i sintomi più comuni della dermatite esfoliativa?
+          </font></font></p>
+</md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"></md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+        <div class="mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+	
+	Chiamiamo MedQuery con le seguenti query:
+	
+
+	</font></font><md-block rendered="content"><ul>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sintomi comuni della dermatite esfoliativa</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">presentazione clinica della dermatite esfoliativa</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Segni e sintomi di dermatite esfoliativa</font></font><br></p>
+</li>
+</ul>
+</md-block>
+	</div>
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+        
+      
+        
+          
+          <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/tool-1.png">
+        
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MedQuery</font></font></span> <!-- Add your desired name here -->
+          
+        
+      
+        
+        <div class="mt-4">
+          <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Uscita funzione:</font></font></p>
+          
+          <label>
+            <input class="peer/showLabel absolute scale-0" type="checkbox">
+            <div class="expand-collapse-box text-wrap max-h-of-4-lines max-w-max overflow-hidden shadow-lg transition-all peer-checked/showLabel:max-h-max">
+              <span class="flex cursor-pointer items-center font-bold show-output-color"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vedi altro</font></font></span>
+              <pre class="bg-[#2f2f2f]"> <code>-----------------------------------<font></font>
+RESULT NUMBER: 0<font></font>
+<font></font>
+<font></font>
+ID: id_175_790<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 790<font></font>
+   start_page_number: 790<font></font>
+   summary: Exfoliative dermatitis causes skin scaling.<font></font>
+Content: **Exfoliative Dermatitis**&lt;br&gt;&lt;br&gt;(Erythroderma)&lt;br&gt;&lt;br&gt;**Exfoliative dermatitis is widespread erythema and scaling of the skin caused by preexisting**<font></font>
+**skin disorders, drugs, cancer, or unknown causes. Symptoms and signs are pruritus, diffuse**<font></font>
+**erythema, and epidermal sloughing. Diagnosis is clinical. Treatment involves corticosteroids**<font></font>
+**and correction of the cause.**&lt;br&gt;&lt;br&gt;Exfoliative dermatitis is a manifestation of rapid epidermal cell turnover. Its cause is unknown, but it most<font></font>
+often occurs in the context of preexisting skin disorders (eg, atopic dermatitis, contact dermatitis,<font></font>
+seborrheic dermatitis, psoriasis, pityriasis rubra pilaris), use of drugs (eg, penicillin, sulfonamides,<font></font>
+isoniazid, phenytoin, barbiturates), and cancer (eg, mycosis fungoides, leukemia, and, rarely, ade-<font></font>
+nocarcinomas). Up to 25% of patients have no identifiable underlying disease.&lt;br&gt;&lt;br&gt;**Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms include pruritus, malaise, and chills. Diffuse erythema initially occurs in patches but spreads<font></font>
+and involves all or nearly all of the body. Extensive epidermal sloughing leads to abnormal<font></font>
+thermoregulation, nutritional deficiencies because of extensive protein losses, increased metabolic rate<font></font>
+with a hypercatabolic state, and hypovolemia due to transdermal fluid losses.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_140_948<font></font>
+METADATA:<font></font>
+   Chapter: 8<font></font>
+   end_page_number: 948<font></font>
+   start_page_number: 948<font></font>
+   summary: POEMS syndrome symptoms<font></font>
+Content: Other symptoms and signs may include edema, ascites, pleural effusion, papilledema, and fever.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_68_763<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 763<font></font>
+   start_page_number: 763<font></font>
+   summary: Dermatomyositis linked to internal cancers.<font></font>
+Content: **Internal cancer:**Of patients with dermatomyositis, about 50% have associated breast, lung, ovarian,<font></font>
+and GI cancers.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_179_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Hand and foot dermatitis categorization.<font></font>
+Content: **Hand and foot dermatitis is not a single disorder. Rather, it is a categorization of dermatitis that**<font></font>
+**affects the hands and feet selectively due to one of several causes.**&lt;br&gt;&lt;br&gt;Patients often present with isolated dermatitis of the hands or feet. Causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_168_788<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 788<font></font>
+   start_page_number: 788<font></font>
+   summary: Contact Dermatitis: skin inflammation cause<font></font>
+Content: **Contact Dermatitis**&lt;br&gt;&lt;br&gt;**Contact dermatitis (CD) is acute inflammation of the skin caused by irritants or allergens. The**<font></font>
+**primary symptom is pruritus. Skin changes range from erythema to blistering and ulceration,**<font></font>
+**often on or near the hands but occurring on any exposed skin surface. Diagnosis is by exposure**<font></font>
+**history, examination, and sometimes skin patch testing. Treatment entails antipruritics, topical**<font></font>
+**corticosteroids, and avoidance of causes.**&lt;br&gt;&lt;br&gt;**Pathophysiology**&lt;br&gt;&lt;br&gt;CD is caused by irritants or allergens.&lt;br&gt;&lt;br&gt;**Irritant contact dermatitis (ICD):**ICD accounts for 80% of all cases of CD. It is a nonspecific<font></font>
+inflammatory reaction to substances contacting the skin; the immune system is not activated. Numerous<font></font>
+substances are involved, including<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 1<font></font>
+<font></font>
+<font></font>
+ID: id_217_806<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 806<font></font>
+   start_page_number: 806<font></font>
+   summary: Clinical diagnosis supported by biopsy.<font></font>
+Content: Diagnosis is by clinical appearance and may be supported by biopsy. Differential diagnosis includes<font></font>
+seborrheic dermatitis (in children) and psoriasis when disease occurs on the scalp, elbows, and knees.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_179_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Hand and foot dermatitis categorization.<font></font>
+Content: **Hand and foot dermatitis is not a single disorder. Rather, it is a categorization of dermatitis that**<font></font>
+**affects the hands and feet selectively due to one of several causes.**&lt;br&gt;&lt;br&gt;Patients often present with isolated dermatitis of the hands or feet. Causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_68_763<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 763<font></font>
+   start_page_number: 763<font></font>
+   summary: Dermatomyositis linked to internal cancers.<font></font>
+Content: **Internal cancer:**Of patients with dermatomyositis, about 50% have associated breast, lung, ovarian,<font></font>
+and GI cancers.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_190_793<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 793<font></font>
+   start_page_number: 793<font></font>
+   summary: Coin-shaped skin inflammation, treatment.<font></font>
+Content: **Nummular Dermatitis**&lt;br&gt;&lt;br&gt;**Nummular (discoid) dermatitis is inflammation of the skin characterized by coin-shaped or disc-**<font></font>
+**shaped lesions. Diagnosis is clinical. Treatment may include antibiotics, corticosteroids, and**<font></font>
+**ultraviolet light therapy.**&lt;br&gt;&lt;br&gt;Nummular dermatitis is most common among middle-aged patients and is often associated with dry skin,<font></font>
+especially during the winter. The cause is unknown.&lt;br&gt;&lt;br&gt;**Symptoms and Signs**&lt;br&gt;&lt;br&gt;Discoid lesions often start as patches of confluent vesicles and papules that later ooze serum and form<font></font>
+crusts. Lesions are eruptive, widespread, and pruritic. They are often more prominent on the extensor<font></font>
+aspects of the extremities and on the buttocks but also appear on the trunk. Exacerbations and<font></font>
+remissions may occur, and when they do, new lesions tend to reappear at the sites of healed lesions.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_113_774<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 774<font></font>
+   start_page_number: 774<font></font>
+   summary: Contact dermatitis, biopsy may be needed.<font></font>
+Content: contact dermatitis must be excluded. Biopsy, which is generally not clinically necessary, shows spongiosis<font></font>
+and a lymphohistiocytic infiltrate affecting vellus hair follicles. In the lupoid variant, granulomas may be<font></font>
+present.<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 2<font></font>
+<font></font>
+<font></font>
+ID: id_175_790<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 790<font></font>
+   start_page_number: 790<font></font>
+   summary: Exfoliative dermatitis causes skin scaling.<font></font>
+Content: **Exfoliative Dermatitis**&lt;br&gt;&lt;br&gt;(Erythroderma)&lt;br&gt;&lt;br&gt;**Exfoliative dermatitis is widespread erythema and scaling of the skin caused by preexisting**<font></font>
+**skin disorders, drugs, cancer, or unknown causes. Symptoms and signs are pruritus, diffuse**<font></font>
+**erythema, and epidermal sloughing. Diagnosis is clinical. Treatment involves corticosteroids**<font></font>
+**and correction of the cause.**&lt;br&gt;&lt;br&gt;Exfoliative dermatitis is a manifestation of rapid epidermal cell turnover. Its cause is unknown, but it most<font></font>
+often occurs in the context of preexisting skin disorders (eg, atopic dermatitis, contact dermatitis,<font></font>
+seborrheic dermatitis, psoriasis, pityriasis rubra pilaris), use of drugs (eg, penicillin, sulfonamides,<font></font>
+isoniazid, phenytoin, barbiturates), and cancer (eg, mycosis fungoides, leukemia, and, rarely, ade-<font></font>
+nocarcinomas). Up to 25% of patients have no identifiable underlying disease.&lt;br&gt;&lt;br&gt;**Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms include pruritus, malaise, and chills. Diffuse erythema initially occurs in patches but spreads<font></font>
+and involves all or nearly all of the body. Extensive epidermal sloughing leads to abnormal<font></font>
+thermoregulation, nutritional deficiencies because of extensive protein losses, increased metabolic rate<font></font>
+with a hypercatabolic state, and hypovolemia due to transdermal fluid losses.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_140_948<font></font>
+METADATA:<font></font>
+   Chapter: 8<font></font>
+   end_page_number: 948<font></font>
+   start_page_number: 948<font></font>
+   summary: POEMS syndrome symptoms<font></font>
+Content: Other symptoms and signs may include edema, ascites, pleural effusion, papilledema, and fever.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_68_763<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 763<font></font>
+   start_page_number: 763<font></font>
+   summary: Dermatomyositis linked to internal cancers.<font></font>
+Content: **Internal cancer:**Of patients with dermatomyositis, about 50% have associated breast, lung, ovarian,<font></font>
+and GI cancers.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_179_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Hand and foot dermatitis categorization.<font></font>
+Content: **Hand and foot dermatitis is not a single disorder. Rather, it is a categorization of dermatitis that**<font></font>
+**affects the hands and feet selectively due to one of several causes.**&lt;br&gt;&lt;br&gt;Patients often present with isolated dermatitis of the hands or feet. Causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_161_91<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 91<font></font>
+   start_page_number: 91<font></font>
+   summary: Nonspecific early symptoms of deficiency.<font></font>
+Content: **Symptoms and Signs**&lt;br&gt;&lt;br&gt;Early symptoms are nonspecific: fatigue, irritability, poor memory, sleep disturbances, precordial pain,<font></font>
+anorexia, and abdominal discomfort.<font></font>
+<font></font>
+<font></font>
+<font></font>
+</code> </pre>
+            </div>
+          </label>
+          
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I sintomi comuni della dermatite esfoliativa, nota anche come eritroderma, sono principalmente caratterizzati da eritema diffuso (arrossamento) e desquamazione della pelle. Sulla base delle informazioni recuperate, i principali sintomi e segni della dermatite esfoliativa includono:</font></font></p>
+<ul>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prurito (prurito)</font></font></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Malessere (sensazione generale di disagio)</font></font></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Brividi</font></font></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Eritema diffuso, che inizialmente si presenta a chiazze ma può diffondersi fino a coinvolgere quasi tutto il corpo</font></font></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Estesa desquamazione epidermica, che può portare a diversi problemi sistemici:</font></font></p>
+<ul>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Termoregolazione anomala dovuta alla perdita della funzione barriera cutanea</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Carenze nutrizionali come risultato di estese perdite proteiche</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Un aumento del tasso metabolico con uno stato ipercatabolico</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ipovolemia (diminuzione del volume del sangue) dovuta alla perdita di liquidi attraverso la pelle</font></font></li>
+</ul>
+</li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Questi sintomi sono dovuti a un rapido turnover delle cellule epidermiche e possono derivare da varie condizioni di base come disturbi cutanei preesistenti (ad esempio, dermatite atopica, dermatite da contatto, dermatite seborroica, psoriasi), reazioni avverse ai farmaci o in associazione con tumori come la micosi. fungoide o leucemia. In alcuni casi, la causa potrebbe rimanere sconosciuta.</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I dettagli per la fonte di queste informazioni sono i seguenti:</font></font></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> id_175_790</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 7</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 790</font></font></li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Il trattamento di solito prevede l’uso di corticosteroidi e l’eliminazione della causa alla base della condizione. È importante notare che è essenziale una diagnosi clinica, che in alcuni casi può essere supportata da una biopsia cutanea per differenziare la dermatite esfoliativa da altre presentazioni simili.
+          </font></font></p>
+</md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/user-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">User</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">In che modo la dermatite esfoliativa differisce da altre forme di dermatite, come la dermatite atopica e la dermatite da contatto, in termini di presentazione clinica e cause sottostanti?
+          </font></font></p>
+</md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"></md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+        <div class="mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+	
+	Chiamiamo MedQuery con le seguenti query:
+	
+
+	</font></font><md-block rendered="content"><ul>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">differenza tra dermatite esfoliativa e altre forme di dermatite</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confronto della presentazione clinica della dermatite esfoliativa</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cause alla base della dermatite esfoliativa rispetto alla dermatite atopica e alla dermatite da contatto</font></font><br></p>
+</li>
+</ul>
+</md-block>
+	</div>
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+        
+      
+        
+          
+          <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/tool-1.png">
+        
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MedQuery</font></font></span> <!-- Add your desired name here -->
+          
+        
+      
+        
+        <div class="mt-4">
+          <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Uscita funzione:</font></font></p>
+          
+          <label>
+            <input class="peer/showLabel absolute scale-0" type="checkbox">
+            <div class="expand-collapse-box text-wrap max-h-of-4-lines max-w-max overflow-hidden shadow-lg transition-all peer-checked/showLabel:max-h-max">
+              <span class="flex cursor-pointer items-center font-bold show-output-color"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vedi altro</font></font></span>
+              <pre class="bg-[#2f2f2f]"> <code>-----------------------------------<font></font>
+RESULT NUMBER: 0<font></font>
+<font></font>
+<font></font>
+ID: id_179_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Hand and foot dermatitis categorization.<font></font>
+Content: **Hand and foot dermatitis is not a single disorder. Rather, it is a categorization of dermatitis that**<font></font>
+**affects the hands and feet selectively due to one of several causes.**&lt;br&gt;&lt;br&gt;Patients often present with isolated dermatitis of the hands or feet. Causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_175_790<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 790<font></font>
+   start_page_number: 790<font></font>
+   summary: Exfoliative dermatitis causes skin scaling.<font></font>
+Content: **Exfoliative Dermatitis**&lt;br&gt;&lt;br&gt;(Erythroderma)&lt;br&gt;&lt;br&gt;**Exfoliative dermatitis is widespread erythema and scaling of the skin caused by preexisting**<font></font>
+**skin disorders, drugs, cancer, or unknown causes. Symptoms and signs are pruritus, diffuse**<font></font>
+**erythema, and epidermal sloughing. Diagnosis is clinical. Treatment involves corticosteroids**<font></font>
+**and correction of the cause.**&lt;br&gt;&lt;br&gt;Exfoliative dermatitis is a manifestation of rapid epidermal cell turnover. Its cause is unknown, but it most<font></font>
+often occurs in the context of preexisting skin disorders (eg, atopic dermatitis, contact dermatitis,<font></font>
+seborrheic dermatitis, psoriasis, pityriasis rubra pilaris), use of drugs (eg, penicillin, sulfonamides,<font></font>
+isoniazid, phenytoin, barbiturates), and cancer (eg, mycosis fungoides, leukemia, and, rarely, ade-<font></font>
+nocarcinomas). Up to 25% of patients have no identifiable underlying disease.&lt;br&gt;&lt;br&gt;**Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms include pruritus, malaise, and chills. Diffuse erythema initially occurs in patches but spreads<font></font>
+and involves all or nearly all of the body. Extensive epidermal sloughing leads to abnormal<font></font>
+thermoregulation, nutritional deficiencies because of extensive protein losses, increased metabolic rate<font></font>
+with a hypercatabolic state, and hypovolemia due to transdermal fluid losses.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_342_837<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 837<font></font>
+   start_page_number: 837<font></font>
+   summary: Skin conditions and infections.<font></font>
+Content: • Contact dermatitis&lt;br&gt;&lt;br&gt;• Psoriasis&lt;br&gt;&lt;br&gt;• Erythrasma&lt;br&gt;&lt;br&gt;• Candidiasis<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_180_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Skin conditions description.<font></font>
+Content: • Contact dermatitis&lt;br&gt;&lt;br&gt;• Fungal infection&lt;br&gt;&lt;br&gt;• Psoriasis&lt;br&gt;&lt;br&gt;• Scabies<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_68_763<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 763<font></font>
+   start_page_number: 763<font></font>
+   summary: Dermatomyositis linked to internal cancers.<font></font>
+Content: **Internal cancer:**Of patients with dermatomyositis, about 50% have associated breast, lung, ovarian,<font></font>
+and GI cancers.<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 1<font></font>
+<font></font>
+<font></font>
+ID: id_179_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Hand and foot dermatitis categorization.<font></font>
+Content: **Hand and foot dermatitis is not a single disorder. Rather, it is a categorization of dermatitis that**<font></font>
+**affects the hands and feet selectively due to one of several causes.**&lt;br&gt;&lt;br&gt;Patients often present with isolated dermatitis of the hands or feet. Causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_217_806<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 806<font></font>
+   start_page_number: 806<font></font>
+   summary: Clinical diagnosis supported by biopsy.<font></font>
+Content: Diagnosis is by clinical appearance and may be supported by biopsy. Differential diagnosis includes<font></font>
+seborrheic dermatitis (in children) and psoriasis when disease occurs on the scalp, elbows, and knees.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_68_763<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 763<font></font>
+   start_page_number: 763<font></font>
+   summary: Dermatomyositis linked to internal cancers.<font></font>
+Content: **Internal cancer:**Of patients with dermatomyositis, about 50% have associated breast, lung, ovarian,<font></font>
+and GI cancers.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_190_793<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 793<font></font>
+   start_page_number: 793<font></font>
+   summary: Coin-shaped skin inflammation, treatment.<font></font>
+Content: **Nummular Dermatitis**&lt;br&gt;&lt;br&gt;**Nummular (discoid) dermatitis is inflammation of the skin characterized by coin-shaped or disc-**<font></font>
+**shaped lesions. Diagnosis is clinical. Treatment may include antibiotics, corticosteroids, and**<font></font>
+**ultraviolet light therapy.**&lt;br&gt;&lt;br&gt;Nummular dermatitis is most common among middle-aged patients and is often associated with dry skin,<font></font>
+especially during the winter. The cause is unknown.&lt;br&gt;&lt;br&gt;**Symptoms and Signs**&lt;br&gt;&lt;br&gt;Discoid lesions often start as patches of confluent vesicles and papules that later ooze serum and form<font></font>
+crusts. Lesions are eruptive, widespread, and pruritic. They are often more prominent on the extensor<font></font>
+aspects of the extremities and on the buttocks but also appear on the trunk. Exacerbations and<font></font>
+remissions may occur, and when they do, new lesions tend to reappear at the sites of healed lesions.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_113_774<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 774<font></font>
+   start_page_number: 774<font></font>
+   summary: Contact dermatitis, biopsy may be needed.<font></font>
+Content: contact dermatitis must be excluded. Biopsy, which is generally not clinically necessary, shows spongiosis<font></font>
+and a lymphohistiocytic infiltrate affecting vellus hair follicles. In the lupoid variant, granulomas may be<font></font>
+present.<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 2<font></font>
+<font></font>
+<font></font>
+ID: id_175_790<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 790<font></font>
+   start_page_number: 790<font></font>
+   summary: Exfoliative dermatitis causes skin scaling.<font></font>
+Content: **Exfoliative Dermatitis**&lt;br&gt;&lt;br&gt;(Erythroderma)&lt;br&gt;&lt;br&gt;**Exfoliative dermatitis is widespread erythema and scaling of the skin caused by preexisting**<font></font>
+**skin disorders, drugs, cancer, or unknown causes. Symptoms and signs are pruritus, diffuse**<font></font>
+**erythema, and epidermal sloughing. Diagnosis is clinical. Treatment involves corticosteroids**<font></font>
+**and correction of the cause.**&lt;br&gt;&lt;br&gt;Exfoliative dermatitis is a manifestation of rapid epidermal cell turnover. Its cause is unknown, but it most<font></font>
+often occurs in the context of preexisting skin disorders (eg, atopic dermatitis, contact dermatitis,<font></font>
+seborrheic dermatitis, psoriasis, pityriasis rubra pilaris), use of drugs (eg, penicillin, sulfonamides,<font></font>
+isoniazid, phenytoin, barbiturates), and cancer (eg, mycosis fungoides, leukemia, and, rarely, ade-<font></font>
+nocarcinomas). Up to 25% of patients have no identifiable underlying disease.&lt;br&gt;&lt;br&gt;**Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms include pruritus, malaise, and chills. Diffuse erythema initially occurs in patches but spreads<font></font>
+and involves all or nearly all of the body. Extensive epidermal sloughing leads to abnormal<font></font>
+thermoregulation, nutritional deficiencies because of extensive protein losses, increased metabolic rate<font></font>
+with a hypercatabolic state, and hypovolemia due to transdermal fluid losses.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_179_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Hand and foot dermatitis categorization.<font></font>
+Content: **Hand and foot dermatitis is not a single disorder. Rather, it is a categorization of dermatitis that**<font></font>
+**affects the hands and feet selectively due to one of several causes.**&lt;br&gt;&lt;br&gt;Patients often present with isolated dermatitis of the hands or feet. Causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_184_792<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 792<font></font>
+   start_page_number: 792<font></font>
+   summary: Hand dermatitis from water exposure.<font></font>
+Content: **Housewives' eczema:**This irritant contact dermatitis affects people whose hands are frequently<font></font>
+immersed in water. It is worsened by washing dishes, clothes, and babies because repeated exposure to<font></font>
+even mild detergents and water or prolonged sweating under rubber gloves may irritate dermatitic skin or<font></font>
+cause an irritant contact dermatitis.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_180_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Skin conditions description.<font></font>
+Content: • Contact dermatitis&lt;br&gt;&lt;br&gt;• Fungal infection&lt;br&gt;&lt;br&gt;• Psoriasis&lt;br&gt;&lt;br&gt;• Scabies<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_85_765<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 765<font></font>
+   start_page_number: 765<font></font>
+   summary: Liquid therapy for skin conditions.<font></font>
+Content: Baths and soaks are used when therapy must be applied to large areas, such as with extensive contact<font></font>
+dermatitis or atopic dermatitis.<font></font>
+<font></font>
+<font></font>
+<font></font>
+</code> </pre>
+            </div>
+          </label>
+          
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dermatite esfoliativa, nota anche come eritroderma, differisce da altre forme di dermatite come la dermatite atopica e la dermatite da contatto nella sua presentazione clinica e nelle cause sottostanti.</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Presentazione clinica:</font></font></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite esfoliativa:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> è caratterizzata da eritema (arrossamento) diffuso e desquamazione che copre un'ampia area o quasi tutto il corpo. Altri sintomi includono prurito, malessere, brividi e desquamazione epidermica estesa, che può portare a problemi sistemici come termoregolazione anormale, carenze nutrizionali, aumento del tasso metabolico e ipovolemia.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite atopica:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> si presenta tipicamente con lesioni pruriginose cronicamente recidivanti che colpiscono prevalentemente le aree di flessione, come l'interno dei gomiti o dietro le ginocchia. La pelle secca è una caratteristica comune ed è spesso associata a una storia personale o familiare di altri disturbi atopici come l'asma o il raffreddore da fieno.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite da contatto:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> si presenta come una reazione infiammatoria della pelle a sostanze irritanti o allergeni. I sintomi possono variare dal prurito e arrossamento alla formazione di vesciche e ulcerazioni, solitamente localizzati nelle aree entrate in contatto con la sostanza incriminata.</font></font></li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cause sottostanti:</font></font></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite esfoliativa:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> può derivare da disturbi cutanei sottostanti (p. es., psoriasi, dermatite atopica, dermatite da contatto), reazioni ai farmaci (p. es., penicillina, sulfamidici, fenitoina) o tumori maligni come il linfoma cutaneo a cellule T o la leucemia. A volte, la causa potrebbe essere sconosciuta.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite atopica:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> le cause sono multifattoriali, tra cui la predisposizione genetica, i fattori ambientali, la disfunzione della barriera cutanea e le risposte immunologiche.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite da contatto:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> causata dal contatto diretto con sostanze irritanti o allergeni. La dermatite irritativa da contatto è una risposta non allergica al danno chimico diretto, mentre la dermatite allergica da contatto comporta una sensibilizzazione immunologica a un allergene.</font></font></li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La diagnosi per questi tipi di dermatite è tipicamente clinica, ma ci sono casi in cui è possibile utilizzare la biopsia cutanea o il patch test per accertare la causa o per escludere altre diagnosi.</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La fonte di queste informazioni è tratta principalmente da:</font></font></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> id_175_790</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 7</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 790</font></font></li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inoltre, per tutti i tipi di dermatite, evitare sostanze irritanti o allergeni noti e gestire l'idratazione della pelle sono componenti comuni del piano di trattamento. I corticosteroidi topici sono comunemente usati in queste condizioni, ma in casi gravi come la dermatite esfoliativa può essere necessario un trattamento sistemico.
+          </font></font></p>
+</md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"></md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+        <div class="mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+	
+	Indaghiamo ulteriormente con MedQuery:
+	
+
+	</font></font><md-block rendered="content"><ul>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">diagnosi dermatite esfoliativa</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">trattamento dermatite esfoliativa</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">presentazione clinica della dermatite atopica</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sintomi e cause della dermatite da contatto</font></font><br></p>
+</li>
+</ul>
+</md-block>
+	</div>
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+        
+      
+        
+          
+          <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/tool-1.png">
+        
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MedQuery</font></font></span> <!-- Add your desired name here -->
+          
+        
+      
+        
+        <div class="mt-4">
+          <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Uscita funzione:</font></font></p>
+          
+          <label>
+            <input class="peer/showLabel absolute scale-0" type="checkbox">
+            <div class="expand-collapse-box text-wrap max-h-of-4-lines max-w-max overflow-hidden shadow-lg transition-all peer-checked/showLabel:max-h-max">
+              <span class="flex cursor-pointer items-center font-bold show-output-color"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vedi altro</font></font></span>
+              <pre class="bg-[#2f2f2f]"> <code>-----------------------------------<font></font>
+RESULT NUMBER: 0<font></font>
+<font></font>
+<font></font>
+ID: id_175_790<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 790<font></font>
+   start_page_number: 790<font></font>
+   summary: Exfoliative dermatitis causes skin scaling.<font></font>
+Content: **Exfoliative Dermatitis**&lt;br&gt;&lt;br&gt;(Erythroderma)&lt;br&gt;&lt;br&gt;**Exfoliative dermatitis is widespread erythema and scaling of the skin caused by preexisting**<font></font>
+**skin disorders, drugs, cancer, or unknown causes. Symptoms and signs are pruritus, diffuse**<font></font>
+**erythema, and epidermal sloughing. Diagnosis is clinical. Treatment involves corticosteroids**<font></font>
+**and correction of the cause.**&lt;br&gt;&lt;br&gt;Exfoliative dermatitis is a manifestation of rapid epidermal cell turnover. Its cause is unknown, but it most<font></font>
+often occurs in the context of preexisting skin disorders (eg, atopic dermatitis, contact dermatitis,<font></font>
+seborrheic dermatitis, psoriasis, pityriasis rubra pilaris), use of drugs (eg, penicillin, sulfonamides,<font></font>
+isoniazid, phenytoin, barbiturates), and cancer (eg, mycosis fungoides, leukemia, and, rarely, ade-<font></font>
+nocarcinomas). Up to 25% of patients have no identifiable underlying disease.&lt;br&gt;&lt;br&gt;**Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms include pruritus, malaise, and chills. Diffuse erythema initially occurs in patches but spreads<font></font>
+and involves all or nearly all of the body. Extensive epidermal sloughing leads to abnormal<font></font>
+thermoregulation, nutritional deficiencies because of extensive protein losses, increased metabolic rate<font></font>
+with a hypercatabolic state, and hypovolemia due to transdermal fluid losses.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_217_806<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 806<font></font>
+   start_page_number: 806<font></font>
+   summary: Clinical diagnosis supported by biopsy.<font></font>
+Content: Diagnosis is by clinical appearance and may be supported by biopsy. Differential diagnosis includes<font></font>
+seborrheic dermatitis (in children) and psoriasis when disease occurs on the scalp, elbows, and knees.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_350_839<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 839<font></font>
+   start_page_number: 839<font></font>
+   summary: KOH wet mounts for diagnosis<font></font>
+Content: Diagnosis is by KOH wet mounts that are negative at the site of the id reaction and positive at the distant<font></font>
+site of dermatophyte infection.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_215_102<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 102<font></font>
+   start_page_number: 102<font></font>
+   summary: Vitamin D level diagnosis.<font></font>
+Content: Diagnosis may be suspected based on any of the following:<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_182_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Skin lesion location and appearance.<font></font>
+Content: Diagnosis can sometimes be inferred from location and appearance of the skin lesions (see<font></font>
+Table 76-3).<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 1<font></font>
+<font></font>
+<font></font>
+ID: id_85_765<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 765<font></font>
+   start_page_number: 765<font></font>
+   summary: Liquid therapy for skin conditions.<font></font>
+Content: Baths and soaks are used when therapy must be applied to large areas, such as with extensive contact<font></font>
+dermatitis or atopic dermatitis.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_432_859<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 859<font></font>
+   start_page_number: 859<font></font>
+   summary: Topical or oral antifungals for tinea capitis.<font></font>
+Content: Treatment for tinea capitis is topical or oral antifungals (see p. 707).<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_502_883<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 883<font></font>
+   start_page_number: 883<font></font>
+   summary: Removal with potential recurrence.<font></font>
+Content: Treatment consists of removal by excision or curettage and electrodesiccation, but the lesions may recur.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_120_945<font></font>
+METADATA:<font></font>
+   Chapter: 8<font></font>
+   end_page_number: 945<font></font>
+   start_page_number: 945<font></font>
+   summary: Excision, monitoring for adrenal masses.<font></font>
+Content: **Treatment**&lt;br&gt;&lt;br&gt;• Excision&lt;br&gt;&lt;br&gt;• Periodic monitoring<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_351_839<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 839<font></font>
+   start_page_number: 839<font></font>
+   summary: Topical treatment for dermatophytid symptoms.<font></font>
+Content: Treatment of the primary infection cures dermatophytid; pending cure, topical corticosteroids and/or<font></font>
+antipruritics (eg, hydroxyzine 25 mg qid) can be used to relieve symptoms.<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 2<font></font>
+<font></font>
+<font></font>
+ID: id_151_782<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 782<font></font>
+   start_page_number: 782<font></font>
+   summary: Ichthyosis risk factors.<font></font>
+Content: • Residence in a dry, cold climate&lt;br&gt;&lt;br&gt;• Older age&lt;br&gt;&lt;br&gt;• Atopic dermatitis&lt;br&gt;&lt;br&gt;• Frequent bathing, particularly if using harsh soaps<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_85_765<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 765<font></font>
+   start_page_number: 765<font></font>
+   summary: Liquid therapy for skin conditions.<font></font>
+Content: Baths and soaks are used when therapy must be applied to large areas, such as with extensive contact<font></font>
+dermatitis or atopic dermatitis.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_217_806<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 806<font></font>
+   start_page_number: 806<font></font>
+   summary: Clinical diagnosis supported by biopsy.<font></font>
+Content: Diagnosis is by clinical appearance and may be supported by biopsy. Differential diagnosis includes<font></font>
+seborrheic dermatitis (in children) and psoriasis when disease occurs on the scalp, elbows, and knees.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_155_785<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 785<font></font>
+   start_page_number: 785<font></font>
+   summary: Atopic dermatitis in children.<font></font>
+Content: **Introduction**&lt;br&gt;&lt;br&gt;Dermatitis is superficial inflammation of the skin characterized by redness, edema, oozing, crusting,<font></font>
+scaling, and sometimes vesicles. Pruritus is common. Eczema is a term often used interchangeably with<font></font>
+dermatitis.&lt;br&gt;&lt;br&gt;**Atopic Dermatitis**&lt;br&gt;&lt;br&gt;**Atopic dermatitis (AD) is an immune-mediated inflammation of the skin arising from an**<font></font>
+**interaction between genetic and environmental factors. Recent research suggests that a**<font></font>
+**heritable epidermal barrier defect is a primary cause, and defects in the*filaggrin*gene have**<font></font>
+**been specifically implicated. Pruritus is the primary symptom; skin lesions range from mild**<font></font>
+**erythema to severe lichenification. Diagnosis is by history and examination. Treatment is**<font></font>
+**moisturizers, avoidance of allergic and irritant triggers, and often topical corticosteroids. Atopic**<font></font>
+**dermatitis frequently resolves completely by age 30.**&lt;br&gt;&lt;br&gt;**Etiology**&lt;br&gt;&lt;br&gt;AD primarily affects children in urban areas or developed countries; at least 5% of children in the US are<font></font>
+affected. Like asthma, it may be linked to proallergic/proinflammatory T-cell immune responses. Such<font></font>
+responses are becoming more common in developed countries because trends toward smaller families,<font></font>
+cleaner indoor environments, and early use of vaccinations and antibiotics deprive children of the early<font></font>
+exposure to infections and allergens that otherwise suppress proallergic T cells and thereby induce<font></font>
+tolerance to various antigens.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_179_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Hand and foot dermatitis categorization.<font></font>
+Content: **Hand and foot dermatitis is not a single disorder. Rather, it is a categorization of dermatitis that**<font></font>
+**affects the hands and feet selectively due to one of several causes.**&lt;br&gt;&lt;br&gt;Patients often present with isolated dermatitis of the hands or feet. Causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 3<font></font>
+<font></font>
+<font></font>
+ID: id_342_837<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 837<font></font>
+   start_page_number: 837<font></font>
+   summary: Skin conditions and infections.<font></font>
+Content: • Contact dermatitis&lt;br&gt;&lt;br&gt;• Psoriasis&lt;br&gt;&lt;br&gt;• Erythrasma&lt;br&gt;&lt;br&gt;• Candidiasis<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_168_788<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 788<font></font>
+   start_page_number: 788<font></font>
+   summary: Contact Dermatitis: skin inflammation cause<font></font>
+Content: **Contact Dermatitis**&lt;br&gt;&lt;br&gt;**Contact dermatitis (CD) is acute inflammation of the skin caused by irritants or allergens. The**<font></font>
+**primary symptom is pruritus. Skin changes range from erythema to blistering and ulceration,**<font></font>
+**often on or near the hands but occurring on any exposed skin surface. Diagnosis is by exposure**<font></font>
+**history, examination, and sometimes skin patch testing. Treatment entails antipruritics, topical**<font></font>
+**corticosteroids, and avoidance of causes.**&lt;br&gt;&lt;br&gt;**Pathophysiology**&lt;br&gt;&lt;br&gt;CD is caused by irritants or allergens.&lt;br&gt;&lt;br&gt;**Irritant contact dermatitis (ICD):**ICD accounts for 80% of all cases of CD. It is a nonspecific<font></font>
+inflammatory reaction to substances contacting the skin; the immune system is not activated. Numerous<font></font>
+substances are involved, including<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_180_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Skin conditions description.<font></font>
+Content: • Contact dermatitis&lt;br&gt;&lt;br&gt;• Fungal infection&lt;br&gt;&lt;br&gt;• Psoriasis&lt;br&gt;&lt;br&gt;• Scabies<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_184_792<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 792<font></font>
+   start_page_number: 792<font></font>
+   summary: Hand dermatitis from water exposure.<font></font>
+Content: **Housewives' eczema:**This irritant contact dermatitis affects people whose hands are frequently<font></font>
+immersed in water. It is worsened by washing dishes, clothes, and babies because repeated exposure to<font></font>
+even mild detergents and water or prolonged sweating under rubber gloves may irritate dermatitic skin or<font></font>
+cause an irritant contact dermatitis.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_179_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Hand and foot dermatitis categorization.<font></font>
+Content: **Hand and foot dermatitis is not a single disorder. Rather, it is a categorization of dermatitis that**<font></font>
+**affects the hands and feet selectively due to one of several causes.**&lt;br&gt;&lt;br&gt;Patients often present with isolated dermatitis of the hands or feet. Causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+</code> </pre>
+            </div>
+          </label>
+          
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dermatite esfoliativa, nota anche come eritroderma, differisce significativamente da altre forme di dermatite come la dermatite atopica e la dermatite da contatto in diversi modi, inclusa la presentazione clinica e le cause sottostanti.</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Presentazione clinica:</font></font></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dermatite esfoliativa</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> si presenta con prurito, eritema diffuso (arrossamento diffuso) e desquamazione epidermica estesa. La condizione può progredire fino a coprire quasi tutto il corpo.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dermatite atopica</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> è caratterizzata da un'infiammazione immunomediata della pelle, con sintomi di prurito e lesioni che vanno da un lieve eritema a una grave lichenificazione (pelle spessa e coriacea). Colpisce principalmente i bambini e le lesioni si verificano tipicamente nelle aree di flessione.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dermatite da contatto</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> è caratterizzata da un'infiammazione acuta della pelle in risposta a sostanze irritanti o allergeni, che causa prurito e alterazioni della pelle che possono variare dal rossore alla formazione di vesciche e ulcerazioni. È comunemente localizzato nelle aree esposte all'irritante o all'allergene.</font></font></li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cause sottostanti:</font></font></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dermatite esfoliativa</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> può essere causata da disturbi cutanei preesistenti (come dermatite atopica, dermatite da contatto, dermatite seborroica, psoriasi), reazione a farmaci (come penicillina, sulfamidici, isoniazide, fenitoina) o associata a tumori come micosi fungoide o leucemia. In alcuni casi, la causa è sconosciuta.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dermatite atopica</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ha un'eziologia complessa che comprende fattori genetici e ambientali, potenziali difetti ereditari della barriera epidermica (p. es., mutazioni nel gene della filaggrina) e risposte infiammatorie immunomediate.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dermatite da contatto</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> deriva dall'esposizione diretta a sostanze irritanti o allergeni. La dermatite irritativa da contatto, che rappresenta la maggior parte dei casi, è dovuta a una risposta non specifica al danno chimico, mentre la dermatite allergica da contatto è dovuta a una risposta immunitaria a un allergene.</font></font></li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Diagnosi e trattamento:</font></font></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La diagnosi della dermatite esfoliativa</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> è clinica, con un trattamento che prevede corticosteroidi e che affronta la causa principale.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dermatite atopica</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> viene diagnosticata attraverso l'anamnesi e l'esame obiettivo, con una gestione che comprende creme idratanti, evitando fattori scatenanti allergici e irritanti e spesso corticosteroidi topici. Molti casi si risolvono entro l’età adulta.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La diagnosi di dermatite da contatto</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> prevede l'anamnesi di esposizione, l'esame obiettivo e il patch test cutaneo se si sospettano cause allergiche. Il trattamento comprende antiprurito, corticosteroidi topici ed evitare le cause note.</font></font></li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Le informazioni di cui sopra provengono da:</font></font></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> id_175_790, id_155_785, id_168_788</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 7</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagine:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 790, 785, 788</font></font></li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vale la pena ribadire che mentre la dermatite atopica e da contatto sono tipi specifici di eczema con sintomi diretti e localizzati, la dermatite esfoliativa è una condizione più grave e generalizzata che coinvolge un'ampia area della pelle e richiede cure mediche immediate.
+          </font></font></p>
+</md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"></md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+        <div class="mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+	
+	Indaghiamo ulteriormente con MedQuery:
+	
+
+	</font></font><md-block rendered="content"><ul>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">differenza tra dermatite esfoliativa e dermatite atopica</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">differenza tra dermatite esfoliativa e dermatite da contatto</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">presentazione clinica della dermatite esfoliativa rispetto alla dermatite atopica</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">presentazione clinica della dermatite esfoliativa rispetto alla dermatite da contatto</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cause alla base della dermatite esfoliativa rispetto alla dermatite atopica e da contatto</font></font><br></p>
+</li>
+</ul>
+</md-block>
+	</div>
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+        
+      
+        
+          
+          <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/tool-1.png">
+        
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MedQuery</font></font></span> <!-- Add your desired name here -->
+          
+        
+      
+        
+        <div class="mt-4">
+          <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Uscita funzione:</font></font></p>
+          
+          <label>
+            <input class="peer/showLabel absolute scale-0" type="checkbox">
+            <div class="expand-collapse-box text-wrap max-h-of-4-lines max-w-max overflow-hidden shadow-lg transition-all peer-checked/showLabel:max-h-max">
+              <span class="flex cursor-pointer items-center font-bold show-output-color"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vedi altro</font></font></span>
+              <pre class="bg-[#2f2f2f]"> <code>-----------------------------------<font></font>
+RESULT NUMBER: 0<font></font>
+<font></font>
+<font></font>
+ID: id_179_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Hand and foot dermatitis categorization.<font></font>
+Content: **Hand and foot dermatitis is not a single disorder. Rather, it is a categorization of dermatitis that**<font></font>
+**affects the hands and feet selectively due to one of several causes.**&lt;br&gt;&lt;br&gt;Patients often present with isolated dermatitis of the hands or feet. Causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_175_790<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 790<font></font>
+   start_page_number: 790<font></font>
+   summary: Exfoliative dermatitis causes skin scaling.<font></font>
+Content: **Exfoliative Dermatitis**&lt;br&gt;&lt;br&gt;(Erythroderma)&lt;br&gt;&lt;br&gt;**Exfoliative dermatitis is widespread erythema and scaling of the skin caused by preexisting**<font></font>
+**skin disorders, drugs, cancer, or unknown causes. Symptoms and signs are pruritus, diffuse**<font></font>
+**erythema, and epidermal sloughing. Diagnosis is clinical. Treatment involves corticosteroids**<font></font>
+**and correction of the cause.**&lt;br&gt;&lt;br&gt;Exfoliative dermatitis is a manifestation of rapid epidermal cell turnover. Its cause is unknown, but it most<font></font>
+often occurs in the context of preexisting skin disorders (eg, atopic dermatitis, contact dermatitis,<font></font>
+seborrheic dermatitis, psoriasis, pityriasis rubra pilaris), use of drugs (eg, penicillin, sulfonamides,<font></font>
+isoniazid, phenytoin, barbiturates), and cancer (eg, mycosis fungoides, leukemia, and, rarely, ade-<font></font>
+nocarcinomas). Up to 25% of patients have no identifiable underlying disease.&lt;br&gt;&lt;br&gt;**Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms include pruritus, malaise, and chills. Diffuse erythema initially occurs in patches but spreads<font></font>
+and involves all or nearly all of the body. Extensive epidermal sloughing leads to abnormal<font></font>
+thermoregulation, nutritional deficiencies because of extensive protein losses, increased metabolic rate<font></font>
+with a hypercatabolic state, and hypovolemia due to transdermal fluid losses.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_151_782<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 782<font></font>
+   start_page_number: 782<font></font>
+   summary: Ichthyosis risk factors.<font></font>
+Content: • Residence in a dry, cold climate&lt;br&gt;&lt;br&gt;• Older age&lt;br&gt;&lt;br&gt;• Atopic dermatitis&lt;br&gt;&lt;br&gt;• Frequent bathing, particularly if using harsh soaps<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_85_765<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 765<font></font>
+   start_page_number: 765<font></font>
+   summary: Liquid therapy for skin conditions.<font></font>
+Content: Baths and soaks are used when therapy must be applied to large areas, such as with extensive contact<font></font>
+dermatitis or atopic dermatitis.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_70_763<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 763<font></font>
+   start_page_number: 763<font></font>
+   summary: Skin condition linked to cancer.<font></font>
+Content: Acute febrile neutrophilic dermatosis is associated with hematologic cancer.<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 1<font></font>
+<font></font>
+<font></font>
+ID: id_342_837<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 837<font></font>
+   start_page_number: 837<font></font>
+   summary: Skin conditions and infections.<font></font>
+Content: • Contact dermatitis&lt;br&gt;&lt;br&gt;• Psoriasis&lt;br&gt;&lt;br&gt;• Erythrasma&lt;br&gt;&lt;br&gt;• Candidiasis<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_180_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Skin conditions description.<font></font>
+Content: • Contact dermatitis&lt;br&gt;&lt;br&gt;• Fungal infection&lt;br&gt;&lt;br&gt;• Psoriasis&lt;br&gt;&lt;br&gt;• Scabies<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_179_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Hand and foot dermatitis categorization.<font></font>
+Content: **Hand and foot dermatitis is not a single disorder. Rather, it is a categorization of dermatitis that**<font></font>
+**affects the hands and feet selectively due to one of several causes.**&lt;br&gt;&lt;br&gt;Patients often present with isolated dermatitis of the hands or feet. Causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_168_788<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 788<font></font>
+   start_page_number: 788<font></font>
+   summary: Contact Dermatitis: skin inflammation cause<font></font>
+Content: **Contact Dermatitis**&lt;br&gt;&lt;br&gt;**Contact dermatitis (CD) is acute inflammation of the skin caused by irritants or allergens. The**<font></font>
+**primary symptom is pruritus. Skin changes range from erythema to blistering and ulceration,**<font></font>
+**often on or near the hands but occurring on any exposed skin surface. Diagnosis is by exposure**<font></font>
+**history, examination, and sometimes skin patch testing. Treatment entails antipruritics, topical**<font></font>
+**corticosteroids, and avoidance of causes.**&lt;br&gt;&lt;br&gt;**Pathophysiology**&lt;br&gt;&lt;br&gt;CD is caused by irritants or allergens.&lt;br&gt;&lt;br&gt;**Irritant contact dermatitis (ICD):**ICD accounts for 80% of all cases of CD. It is a nonspecific<font></font>
+inflammatory reaction to substances contacting the skin; the immune system is not activated. Numerous<font></font>
+substances are involved, including<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_175_790<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 790<font></font>
+   start_page_number: 790<font></font>
+   summary: Exfoliative dermatitis causes skin scaling.<font></font>
+Content: **Exfoliative Dermatitis**&lt;br&gt;&lt;br&gt;(Erythroderma)&lt;br&gt;&lt;br&gt;**Exfoliative dermatitis is widespread erythema and scaling of the skin caused by preexisting**<font></font>
+**skin disorders, drugs, cancer, or unknown causes. Symptoms and signs are pruritus, diffuse**<font></font>
+**erythema, and epidermal sloughing. Diagnosis is clinical. Treatment involves corticosteroids**<font></font>
+**and correction of the cause.**&lt;br&gt;&lt;br&gt;Exfoliative dermatitis is a manifestation of rapid epidermal cell turnover. Its cause is unknown, but it most<font></font>
+often occurs in the context of preexisting skin disorders (eg, atopic dermatitis, contact dermatitis,<font></font>
+seborrheic dermatitis, psoriasis, pityriasis rubra pilaris), use of drugs (eg, penicillin, sulfonamides,<font></font>
+isoniazid, phenytoin, barbiturates), and cancer (eg, mycosis fungoides, leukemia, and, rarely, ade-<font></font>
+nocarcinomas). Up to 25% of patients have no identifiable underlying disease.&lt;br&gt;&lt;br&gt;**Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms include pruritus, malaise, and chills. Diffuse erythema initially occurs in patches but spreads<font></font>
+and involves all or nearly all of the body. Extensive epidermal sloughing leads to abnormal<font></font>
+thermoregulation, nutritional deficiencies because of extensive protein losses, increased metabolic rate<font></font>
+with a hypercatabolic state, and hypovolemia due to transdermal fluid losses.<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 2<font></font>
+<font></font>
+<font></font>
+ID: id_151_782<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 782<font></font>
+   start_page_number: 782<font></font>
+   summary: Ichthyosis risk factors.<font></font>
+Content: • Residence in a dry, cold climate&lt;br&gt;&lt;br&gt;• Older age&lt;br&gt;&lt;br&gt;• Atopic dermatitis&lt;br&gt;&lt;br&gt;• Frequent bathing, particularly if using harsh soaps<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_217_806<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 806<font></font>
+   start_page_number: 806<font></font>
+   summary: Clinical diagnosis supported by biopsy.<font></font>
+Content: Diagnosis is by clinical appearance and may be supported by biopsy. Differential diagnosis includes<font></font>
+seborrheic dermatitis (in children) and psoriasis when disease occurs on the scalp, elbows, and knees.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_179_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Hand and foot dermatitis categorization.<font></font>
+Content: **Hand and foot dermatitis is not a single disorder. Rather, it is a categorization of dermatitis that**<font></font>
+**affects the hands and feet selectively due to one of several causes.**&lt;br&gt;&lt;br&gt;Patients often present with isolated dermatitis of the hands or feet. Causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_85_765<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 765<font></font>
+   start_page_number: 765<font></font>
+   summary: Liquid therapy for skin conditions.<font></font>
+Content: Baths and soaks are used when therapy must be applied to large areas, such as with extensive contact<font></font>
+dermatitis or atopic dermatitis.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_155_785<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 785<font></font>
+   start_page_number: 785<font></font>
+   summary: Atopic dermatitis in children.<font></font>
+Content: **Introduction**&lt;br&gt;&lt;br&gt;Dermatitis is superficial inflammation of the skin characterized by redness, edema, oozing, crusting,<font></font>
+scaling, and sometimes vesicles. Pruritus is common. Eczema is a term often used interchangeably with<font></font>
+dermatitis.&lt;br&gt;&lt;br&gt;**Atopic Dermatitis**&lt;br&gt;&lt;br&gt;**Atopic dermatitis (AD) is an immune-mediated inflammation of the skin arising from an**<font></font>
+**interaction between genetic and environmental factors. Recent research suggests that a**<font></font>
+**heritable epidermal barrier defect is a primary cause, and defects in the*filaggrin*gene have**<font></font>
+**been specifically implicated. Pruritus is the primary symptom; skin lesions range from mild**<font></font>
+**erythema to severe lichenification. Diagnosis is by history and examination. Treatment is**<font></font>
+**moisturizers, avoidance of allergic and irritant triggers, and often topical corticosteroids. Atopic**<font></font>
+**dermatitis frequently resolves completely by age 30.**&lt;br&gt;&lt;br&gt;**Etiology**&lt;br&gt;&lt;br&gt;AD primarily affects children in urban areas or developed countries; at least 5% of children in the US are<font></font>
+affected. Like asthma, it may be linked to proallergic/proinflammatory T-cell immune responses. Such<font></font>
+responses are becoming more common in developed countries because trends toward smaller families,<font></font>
+cleaner indoor environments, and early use of vaccinations and antibiotics deprive children of the early<font></font>
+exposure to infections and allergens that otherwise suppress proallergic T cells and thereby induce<font></font>
+tolerance to various antigens.<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 3<font></font>
+<font></font>
+<font></font>
+ID: id_342_837<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 837<font></font>
+   start_page_number: 837<font></font>
+   summary: Skin conditions and infections.<font></font>
+Content: • Contact dermatitis&lt;br&gt;&lt;br&gt;• Psoriasis&lt;br&gt;&lt;br&gt;• Erythrasma&lt;br&gt;&lt;br&gt;• Candidiasis<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_180_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Skin conditions description.<font></font>
+Content: • Contact dermatitis&lt;br&gt;&lt;br&gt;• Fungal infection&lt;br&gt;&lt;br&gt;• Psoriasis&lt;br&gt;&lt;br&gt;• Scabies<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_175_790<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 790<font></font>
+   start_page_number: 790<font></font>
+   summary: Exfoliative dermatitis causes skin scaling.<font></font>
+Content: **Exfoliative Dermatitis**&lt;br&gt;&lt;br&gt;(Erythroderma)&lt;br&gt;&lt;br&gt;**Exfoliative dermatitis is widespread erythema and scaling of the skin caused by preexisting**<font></font>
+**skin disorders, drugs, cancer, or unknown causes. Symptoms and signs are pruritus, diffuse**<font></font>
+**erythema, and epidermal sloughing. Diagnosis is clinical. Treatment involves corticosteroids**<font></font>
+**and correction of the cause.**&lt;br&gt;&lt;br&gt;Exfoliative dermatitis is a manifestation of rapid epidermal cell turnover. Its cause is unknown, but it most<font></font>
+often occurs in the context of preexisting skin disorders (eg, atopic dermatitis, contact dermatitis,<font></font>
+seborrheic dermatitis, psoriasis, pityriasis rubra pilaris), use of drugs (eg, penicillin, sulfonamides,<font></font>
+isoniazid, phenytoin, barbiturates), and cancer (eg, mycosis fungoides, leukemia, and, rarely, ade-<font></font>
+nocarcinomas). Up to 25% of patients have no identifiable underlying disease.&lt;br&gt;&lt;br&gt;**Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms include pruritus, malaise, and chills. Diffuse erythema initially occurs in patches but spreads<font></font>
+and involves all or nearly all of the body. Extensive epidermal sloughing leads to abnormal<font></font>
+thermoregulation, nutritional deficiencies because of extensive protein losses, increased metabolic rate<font></font>
+with a hypercatabolic state, and hypovolemia due to transdermal fluid losses.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_113_774<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 774<font></font>
+   start_page_number: 774<font></font>
+   summary: Contact dermatitis, biopsy may be needed.<font></font>
+Content: contact dermatitis must be excluded. Biopsy, which is generally not clinically necessary, shows spongiosis<font></font>
+and a lymphohistiocytic infiltrate affecting vellus hair follicles. In the lupoid variant, granulomas may be<font></font>
+present.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_168_788<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 788<font></font>
+   start_page_number: 788<font></font>
+   summary: Contact Dermatitis: skin inflammation cause<font></font>
+Content: **Contact Dermatitis**&lt;br&gt;&lt;br&gt;**Contact dermatitis (CD) is acute inflammation of the skin caused by irritants or allergens. The**<font></font>
+**primary symptom is pruritus. Skin changes range from erythema to blistering and ulceration,**<font></font>
+**often on or near the hands but occurring on any exposed skin surface. Diagnosis is by exposure**<font></font>
+**history, examination, and sometimes skin patch testing. Treatment entails antipruritics, topical**<font></font>
+**corticosteroids, and avoidance of causes.**&lt;br&gt;&lt;br&gt;**Pathophysiology**&lt;br&gt;&lt;br&gt;CD is caused by irritants or allergens.&lt;br&gt;&lt;br&gt;**Irritant contact dermatitis (ICD):**ICD accounts for 80% of all cases of CD. It is a nonspecific<font></font>
+inflammatory reaction to substances contacting the skin; the immune system is not activated. Numerous<font></font>
+substances are involved, including<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 4<font></font>
+<font></font>
+<font></font>
+ID: id_175_790<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 790<font></font>
+   start_page_number: 790<font></font>
+   summary: Exfoliative dermatitis causes skin scaling.<font></font>
+Content: **Exfoliative Dermatitis**&lt;br&gt;&lt;br&gt;(Erythroderma)&lt;br&gt;&lt;br&gt;**Exfoliative dermatitis is widespread erythema and scaling of the skin caused by preexisting**<font></font>
+**skin disorders, drugs, cancer, or unknown causes. Symptoms and signs are pruritus, diffuse**<font></font>
+**erythema, and epidermal sloughing. Diagnosis is clinical. Treatment involves corticosteroids**<font></font>
+**and correction of the cause.**&lt;br&gt;&lt;br&gt;Exfoliative dermatitis is a manifestation of rapid epidermal cell turnover. Its cause is unknown, but it most<font></font>
+often occurs in the context of preexisting skin disorders (eg, atopic dermatitis, contact dermatitis,<font></font>
+seborrheic dermatitis, psoriasis, pityriasis rubra pilaris), use of drugs (eg, penicillin, sulfonamides,<font></font>
+isoniazid, phenytoin, barbiturates), and cancer (eg, mycosis fungoides, leukemia, and, rarely, ade-<font></font>
+nocarcinomas). Up to 25% of patients have no identifiable underlying disease.&lt;br&gt;&lt;br&gt;**Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms include pruritus, malaise, and chills. Diffuse erythema initially occurs in patches but spreads<font></font>
+and involves all or nearly all of the body. Extensive epidermal sloughing leads to abnormal<font></font>
+thermoregulation, nutritional deficiencies because of extensive protein losses, increased metabolic rate<font></font>
+with a hypercatabolic state, and hypovolemia due to transdermal fluid losses.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_179_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Hand and foot dermatitis categorization.<font></font>
+Content: **Hand and foot dermatitis is not a single disorder. Rather, it is a categorization of dermatitis that**<font></font>
+**affects the hands and feet selectively due to one of several causes.**&lt;br&gt;&lt;br&gt;Patients often present with isolated dermatitis of the hands or feet. Causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_184_792<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 792<font></font>
+   start_page_number: 792<font></font>
+   summary: Hand dermatitis from water exposure.<font></font>
+Content: **Housewives' eczema:**This irritant contact dermatitis affects people whose hands are frequently<font></font>
+immersed in water. It is worsened by washing dishes, clothes, and babies because repeated exposure to<font></font>
+even mild detergents and water or prolonged sweating under rubber gloves may irritate dermatitic skin or<font></font>
+cause an irritant contact dermatitis.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_85_765<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 765<font></font>
+   start_page_number: 765<font></font>
+   summary: Liquid therapy for skin conditions.<font></font>
+Content: Baths and soaks are used when therapy must be applied to large areas, such as with extensive contact<font></font>
+dermatitis or atopic dermatitis.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_180_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Skin conditions description.<font></font>
+Content: • Contact dermatitis&lt;br&gt;&lt;br&gt;• Fungal infection&lt;br&gt;&lt;br&gt;• Psoriasis&lt;br&gt;&lt;br&gt;• Scabies<font></font>
+<font></font>
+<font></font>
+<font></font>
+</code> </pre>
+            </div>
+          </label>
+          
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dermatite esfoliativa (nota anche come eritroderma) differisce da altre forme di dermatite, tra cui la dermatite atopica e la dermatite da contatto, sia nella presentazione clinica che nelle cause sottostanti.</font></font></p>
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Presentazione clinica:</font></font></strong></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite esfoliativa:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> la caratteristica principale è un diffuso eritema (arrossamento) e desquamazione che colpisce un'ampia porzione o quasi tutta la pelle del corpo. I pazienti possono avvertire prurito, malessere, brividi e desquamazione epidermica estesa. La desquamazione della pelle può causare effetti sistemici, come termoregolazione anomala, carenze nutrizionali dovute a perdite proteiche, aumento del tasso metabolico e ipovolemia dovuta alla perdita di liquidi.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite atopica (AD):</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> l'AD si presenta con prurito come sintomo principale, insieme a lesioni cutanee che vanno da un lieve eritema a una grave lichenificazione. Di solito si manifesta durante l'infanzia, spesso nelle aree di flessione come l'interno dei gomiti o dietro le ginocchia. La dermatite atopica ha una significativa componente ereditaria, incluso un potenziale difetto della barriera epidermica associato a mutazioni del gene della filaggrina.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite da contatto (CD):</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> la CD è definita dall'infiammazione acuta della pelle come reazione a sostanze irritanti o allergeni. I pazienti avvertono prurito e le alterazioni cutanee possono includere eritema, vescicole e ulcerazioni, spesso localizzate nell'area di contatto. Esistono due varianti distinte: la dermatite irritante da contatto (ICD), causata da un danno chimico diretto alla pelle, e la dermatite allergica da contatto (ACD), che deriva dalla sensibilizzazione immunologica agli allergeni.</font></font></li>
+</ul>
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cause sottostanti:</font></font></strong></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite esfoliativa:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> può essere il risultato di disturbi cutanei esistenti come dermatite atopica, dermatite da contatto, dermatite seborroica, psoriasi e altri. Può anche essere indotta da farmaci (p. es., penicillina, isoniazide) o associata a neoplasie (micosi fungoide, leucemia). Tuttavia, in alcuni casi mancano le cause identificabili.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite atopica:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> l’AD è correlata a complesse interazioni tra predisposizione genetica, fattori ambientali, risposte immunitarie e funzione di barriera cutanea.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite da contatto:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> la CD è innescata direttamente dall'esposizione a una sostanza irritante o allergene dannosa.</font></font></li>
+</ul>
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Approcci terapeutici:</font></font></strong></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite esfoliativa:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> il trattamento in genere prevede la somministrazione di corticosteroidi sistemici e l'eliminazione della causa sottostante per correggere il problema.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite atopica:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> la gestione comprende creme idratanti, evitando allergeni e sostanze irritanti e spesso utilizzando corticosteroidi topici.</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatite da contatto:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> la strategia primaria è quella di evitare le cause, con un trattamento supplementare che prevede antiprurito e corticosteroidi topici.</font></font></li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La diagnosi di queste condizioni è in gran parte clinica ma può essere aiutata dall'esame istologico e dal patch test, in particolare nei casi di dermatite da contatto.</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Le fonti per i dettagli di cui sopra sono le seguenti:</font></font></p>
+<ul>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Per </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">la dermatite esfoliativa</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> :</font></font></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : id_175_790</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 7</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 790</font></font></li>
+</ul>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Per </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">la dermatite atopica</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> :</font></font></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : id_155_785</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 7</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 785</font></font></li>
+</ul>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Per </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">la dermatite da contatto</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> :</font></font></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : id_168_788</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 7</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 788</font></font></li>
+</ul>
+</li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nel complesso, la dermatite esfoliativa è riconosciuta per il suo impatto grave ed esteso sulla pelle, che la distingue significativamente dalle presentazioni più localizzate e specifiche della dermatite atopica o da contatto.
+          </font></font></p>
+</md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/user-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">User</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Esplorare la potenziale associazione tra dermatite esfoliativa e condizioni sistemiche sottostanti, come tumori maligni e disturbi autoimmuni, e discutere le implicazioni per la diagnosi e la gestione.
+          </font></font></p>
+</md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"></md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+        <div class="mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+	
+	Chiamiamo MedQuery con le seguenti query:
+	
+
+	</font></font><md-block rendered="content"><ul>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">dermatite esfoliativa e condizioni sistemiche</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Associazione tra dermatite esfoliativa e neoplasie</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">dermatite esfoliativa e malattie autoimmuni</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">diagnosi e gestione della dermatite esfoliativa con malattie sistemiche</font></font><br></p>
+</li>
+</ul>
+</md-block>
+	</div>
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+        
+      
+        
+          
+          <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/tool-1.png">
+        
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MedQuery</font></font></span> <!-- Add your desired name here -->
+          
+        
+      
+        
+        <div class="mt-4">
+          <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Uscita funzione:</font></font></p>
+          
+          <label>
+            <input class="peer/showLabel absolute scale-0" type="checkbox">
+            <div class="expand-collapse-box text-wrap max-h-of-4-lines max-w-max overflow-hidden shadow-lg transition-all peer-checked/showLabel:max-h-max">
+              <span class="flex cursor-pointer items-center font-bold show-output-color"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vedi altro</font></font></span>
+              <pre class="bg-[#2f2f2f]"> <code>-----------------------------------<font></font>
+RESULT NUMBER: 0<font></font>
+<font></font>
+<font></font>
+ID: id_179_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Hand and foot dermatitis categorization.<font></font>
+Content: **Hand and foot dermatitis is not a single disorder. Rather, it is a categorization of dermatitis that**<font></font>
+**affects the hands and feet selectively due to one of several causes.**&lt;br&gt;&lt;br&gt;Patients often present with isolated dermatitis of the hands or feet. Causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_175_790<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 790<font></font>
+   start_page_number: 790<font></font>
+   summary: Exfoliative dermatitis causes skin scaling.<font></font>
+Content: **Exfoliative Dermatitis**&lt;br&gt;&lt;br&gt;(Erythroderma)&lt;br&gt;&lt;br&gt;**Exfoliative dermatitis is widespread erythema and scaling of the skin caused by preexisting**<font></font>
+**skin disorders, drugs, cancer, or unknown causes. Symptoms and signs are pruritus, diffuse**<font></font>
+**erythema, and epidermal sloughing. Diagnosis is clinical. Treatment involves corticosteroids**<font></font>
+**and correction of the cause.**&lt;br&gt;&lt;br&gt;Exfoliative dermatitis is a manifestation of rapid epidermal cell turnover. Its cause is unknown, but it most<font></font>
+often occurs in the context of preexisting skin disorders (eg, atopic dermatitis, contact dermatitis,<font></font>
+seborrheic dermatitis, psoriasis, pityriasis rubra pilaris), use of drugs (eg, penicillin, sulfonamides,<font></font>
+isoniazid, phenytoin, barbiturates), and cancer (eg, mycosis fungoides, leukemia, and, rarely, ade-<font></font>
+nocarcinomas). Up to 25% of patients have no identifiable underlying disease.&lt;br&gt;&lt;br&gt;**Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms include pruritus, malaise, and chills. Diffuse erythema initially occurs in patches but spreads<font></font>
+and involves all or nearly all of the body. Extensive epidermal sloughing leads to abnormal<font></font>
+thermoregulation, nutritional deficiencies because of extensive protein losses, increased metabolic rate<font></font>
+with a hypercatabolic state, and hypovolemia due to transdermal fluid losses.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_232_809<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 809<font></font>
+   start_page_number: 809<font></font>
+   summary: Immune system in skin disorders.<font></font>
+Content: **Introduction**&lt;br&gt;&lt;br&gt;The immune system plays a significant role in a large number of skin disorders, including dermatitis,<font></font>
+sunlight reactions, and bullous diseases. Although all of these disorders involve some level of<font></font>
+inflammation, certain skin disorders are primarily characterized by their inflammatory component or as a<font></font>
+hypersensitivity reaction, be it to a drug, infection, or cancer.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_34_756<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 757<font></font>
+   start_page_number: 756<font></font>
+   summary: Itching causes discomfort and complications.<font></font>
+Content: Itching is a symptom that can cause significant discomfort and is one of the most common reasons for<font></font>
+consultation with a dermatologist. Itching leads to scratching, which can cause inflammation, skin<font></font>
+degradation, and possible secondary infection. The skin can become lichenified, scaly, and excoriated.&lt;br&gt;&lt;br&gt;**Pathophysiology**&lt;br&gt;&lt;br&gt;Itch can be prompted by diverse stimuli, including light touch, vibration, and wool fibers. There are a<font></font>
+number of chemical mediators as well as different mechanisms by which the sensation of itch occurs.&lt;br&gt;&lt;br&gt;**Mediators:**Histamine is one of the most significant mediators. It is synthesized and stored in mast cells<font></font>
+in the skin and is released in response to various stimuli. Other mediators (eg, neuropeptides) can either<font></font>
+cause the release of histamine or act as pruritogens themselves, thus explaining why antihistamines<font></font>
+ameliorate some cases of itching and not others. Opioids have a central pruritic action as well as&lt;br&gt;&lt;br&gt;**Mechanisms:**There are 4 mechanisms of itch:&lt;br&gt;&lt;br&gt;• Dermatologic—typically caused by inflammatory or pathologic processes (eg, urticaria, eczema)&lt;br&gt;&lt;br&gt;• Systemic—related to diseases of organs other than skin (eg, cholestasis)&lt;br&gt;&lt;br&gt;• Neuropathic—related to disorders of the CNS or peripheral nervous system (eg, multiple sclerosis)&lt;br&gt;&lt;br&gt;• Psychogenic—related to psychiatric conditions&lt;br&gt;&lt;br&gt;Intense itching stimulates vigorous scratching, which in turn can cause secondary skin conditions (eg,<font></font>
+inflammation, excoriation, infection), which can lead to more itching. However, scratch can temporarily<font></font>
+reduce the sensation of itch by activating inhibitory neuronal circuits.&lt;br&gt;&lt;br&gt;**Etiology**&lt;br&gt;&lt;br&gt;Itching can be a symptom of a primary skin disease or, less commonly, a systemic disease (see<font></font>
+Table 71-1).&lt;br&gt;&lt;br&gt;[**Table 71-1.**Some Causes of Itching]&lt;br&gt;&lt;br&gt;**Skin disorders:**Many skin disorders cause itching. The most common include&lt;br&gt;&lt;br&gt;• Dry skin&lt;br&gt;&lt;br&gt;• Atopic dermatitis (eczema)&lt;br&gt;&lt;br&gt;• Contact dermatitis&lt;br&gt;&lt;br&gt;• Fungal skin infections&lt;br&gt;&lt;br&gt;**Systemic disorders:**In systemic disorders, itching may occur with or without skin lesions. However,<font></font>
+when itching is prominent without any identifiable skin lesions, systemic disorders and drugs should be<font></font>
+considered more strongly. Systemic disorders are less often a cause of itching than skin disorders, but<font></font>
+some of the more common causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_68_763<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 763<font></font>
+   start_page_number: 763<font></font>
+   summary: Dermatomyositis linked to internal cancers.<font></font>
+Content: **Internal cancer:**Of patients with dermatomyositis, about 50% have associated breast, lung, ovarian,<font></font>
+and GI cancers.<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 1<font></font>
+<font></font>
+<font></font>
+ID: id_70_763<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 763<font></font>
+   start_page_number: 763<font></font>
+   summary: Skin condition linked to cancer.<font></font>
+Content: Acute febrile neutrophilic dermatosis is associated with hematologic cancer.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_68_763<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 763<font></font>
+   start_page_number: 763<font></font>
+   summary: Dermatomyositis linked to internal cancers.<font></font>
+Content: **Internal cancer:**Of patients with dermatomyositis, about 50% have associated breast, lung, ovarian,<font></font>
+and GI cancers.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_175_790<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 790<font></font>
+   start_page_number: 790<font></font>
+   summary: Exfoliative dermatitis causes skin scaling.<font></font>
+Content: **Exfoliative Dermatitis**&lt;br&gt;&lt;br&gt;(Erythroderma)&lt;br&gt;&lt;br&gt;**Exfoliative dermatitis is widespread erythema and scaling of the skin caused by preexisting**<font></font>
+**skin disorders, drugs, cancer, or unknown causes. Symptoms and signs are pruritus, diffuse**<font></font>
+**erythema, and epidermal sloughing. Diagnosis is clinical. Treatment involves corticosteroids**<font></font>
+**and correction of the cause.**&lt;br&gt;&lt;br&gt;Exfoliative dermatitis is a manifestation of rapid epidermal cell turnover. Its cause is unknown, but it most<font></font>
+often occurs in the context of preexisting skin disorders (eg, atopic dermatitis, contact dermatitis,<font></font>
+seborrheic dermatitis, psoriasis, pityriasis rubra pilaris), use of drugs (eg, penicillin, sulfonamides,<font></font>
+isoniazid, phenytoin, barbiturates), and cancer (eg, mycosis fungoides, leukemia, and, rarely, ade-<font></font>
+nocarcinomas). Up to 25% of patients have no identifiable underlying disease.&lt;br&gt;&lt;br&gt;**Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms include pruritus, malaise, and chills. Diffuse erythema initially occurs in patches but spreads<font></font>
+and involves all or nearly all of the body. Extensive epidermal sloughing leads to abnormal<font></font>
+thermoregulation, nutritional deficiencies because of extensive protein losses, increased metabolic rate<font></font>
+with a hypercatabolic state, and hypovolemia due to transdermal fluid losses.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_179_791<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 791<font></font>
+   start_page_number: 791<font></font>
+   summary: Hand and foot dermatitis categorization.<font></font>
+Content: **Hand and foot dermatitis is not a single disorder. Rather, it is a categorization of dermatitis that**<font></font>
+**affects the hands and feet selectively due to one of several causes.**&lt;br&gt;&lt;br&gt;Patients often present with isolated dermatitis of the hands or feet. Causes include<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_71_763<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 763<font></font>
+   start_page_number: 763<font></font>
+   summary: Skin condition indicates cancer risk.<font></font>
+Content: Acanthosis nigricans (see<font></font>
+Plate 24) that is associated with cancer can be of rapid onset and particularly widespread. Pruritus<font></font>
+without a clearly associated dermatitis may indicate occult cancer, often lymphoma.<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 2<font></font>
+<font></font>
+<font></font>
+ID: id_407_854<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 854<font></font>
+   start_page_number: 854<font></font>
+   summary: Autoimmune thyroid, photosensitizing drugs.<font></font>
+Content: • Autoimmune thyroid disorders&lt;br&gt;&lt;br&gt;• Photosensitizing drugs<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_127_777<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 777<font></font>
+   start_page_number: 777<font></font>
+   summary: Rare autoimmune disease in adults.<font></font>
+Content: More than 90% of affected patients have a gluten-sensitive enteropathy, which is often asymptomatic.<font></font>
+Dermatitis herpetiformis develops in 15 to 25% of patients with celiac sprue. Patients have a slightly<font></font>
+higher incidence of other autoimmune disorders, including type 1 diabetes mellitus, sarcoidosis, SLE, and<font></font>
+thyroid abnormalities. The incidence of enteropathy-associated T-cell lymphoma is also increased.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_232_809<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 809<font></font>
+   start_page_number: 809<font></font>
+   summary: Immune system in skin disorders.<font></font>
+Content: **Introduction**&lt;br&gt;&lt;br&gt;The immune system plays a significant role in a large number of skin disorders, including dermatitis,<font></font>
+sunlight reactions, and bullous diseases. Although all of these disorders involve some level of<font></font>
+inflammation, certain skin disorders are primarily characterized by their inflammatory component or as a<font></font>
+hypersensitivity reaction, be it to a drug, infection, or cancer.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_125_777<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 777<font></font>
+   start_page_number: 777<font></font>
+   summary: Autoimmune rash from gluten sensitivity.<font></font>
+Content: **Dermatitis Herpetiformis**&lt;br&gt;&lt;br&gt;**Dermatitis herpetiformis is a cutaneous manifestation associated with gluten sensitivity. It**<font></font>
+**produces a chronic eruption characterized by clusters of intensely pruritic vesicles, papules,**<font></font>
+**and urticaria-like lesions. The cause is autoimmune. Diagnosis is by skin biopsy with direct**<font></font>
+**immunofluorescence testing. Treatment is usually with dapsone or sulfapyridine and a gluten-**<font></font>
+**free diet.**<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_126_946<font></font>
+METADATA:<font></font>
+   Chapter: 8<font></font>
+   end_page_number: 946<font></font>
+   start_page_number: 946<font></font>
+   summary: Three patterns of autoimmune failure.<font></font>
+Content: **Classification**&lt;br&gt;&lt;br&gt;Three patterns of autoimmune failure have been described (see Table 95-1), which likely reflect different<font></font>
+autoimmune abnormalities.<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 3<font></font>
+<font></font>
+<font></font>
+ID: id_175_790<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 790<font></font>
+   start_page_number: 790<font></font>
+   summary: Exfoliative dermatitis causes skin scaling.<font></font>
+Content: **Exfoliative Dermatitis**&lt;br&gt;&lt;br&gt;(Erythroderma)&lt;br&gt;&lt;br&gt;**Exfoliative dermatitis is widespread erythema and scaling of the skin caused by preexisting**<font></font>
+**skin disorders, drugs, cancer, or unknown causes. Symptoms and signs are pruritus, diffuse**<font></font>
+**erythema, and epidermal sloughing. Diagnosis is clinical. Treatment involves corticosteroids**<font></font>
+**and correction of the cause.**&lt;br&gt;&lt;br&gt;Exfoliative dermatitis is a manifestation of rapid epidermal cell turnover. Its cause is unknown, but it most<font></font>
+often occurs in the context of preexisting skin disorders (eg, atopic dermatitis, contact dermatitis,<font></font>
+seborrheic dermatitis, psoriasis, pityriasis rubra pilaris), use of drugs (eg, penicillin, sulfonamides,<font></font>
+isoniazid, phenytoin, barbiturates), and cancer (eg, mycosis fungoides, leukemia, and, rarely, ade-<font></font>
+nocarcinomas). Up to 25% of patients have no identifiable underlying disease.&lt;br&gt;&lt;br&gt;**Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms include pruritus, malaise, and chills. Diffuse erythema initially occurs in patches but spreads<font></font>
+and involves all or nearly all of the body. Extensive epidermal sloughing leads to abnormal<font></font>
+thermoregulation, nutritional deficiencies because of extensive protein losses, increased metabolic rate<font></font>
+with a hypercatabolic state, and hypovolemia due to transdermal fluid losses.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_134_778<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 778<font></font>
+   start_page_number: 778<font></font>
+   summary: Skin biopsy, dapsone treatment, monitoring.<font></font>
+Content: Diagnosis is by skin biopsy. Dapsone is the treatment of choice. Doses should be similar to those used<font></font>
+for dermatitis herpetiformis (see p. 657), and CBC monitoring should follow the same parameters. Other<font></font>
+treatment options include glucocorticoids (systemic, topical, and intralesional), cyclophosphamide,<font></font>
+azathioprine, colchicine, tetracycline and nicotinamide, and cyclosporine.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_47_759<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 759<font></font>
+   start_page_number: 759<font></font>
+   summary: Relief with topical/systemic drugs.<font></font>
+Content: • Symptoms can be relieved by topical or systemic drugs.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_217_806<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 806<font></font>
+   start_page_number: 806<font></font>
+   summary: Clinical diagnosis supported by biopsy.<font></font>
+Content: Diagnosis is by clinical appearance and may be supported by biopsy. Differential diagnosis includes<font></font>
+seborrheic dermatitis (in children) and psoriasis when disease occurs on the scalp, elbows, and knees.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_350_839<font></font>
+METADATA:<font></font>
+   Chapter: 7<font></font>
+   end_page_number: 839<font></font>
+   start_page_number: 839<font></font>
+   summary: KOH wet mounts for diagnosis<font></font>
+Content: Diagnosis is by KOH wet mounts that are negative at the site of the id reaction and positive at the distant<font></font>
+site of dermatophyte infection.<font></font>
+<font></font>
+<font></font>
+<font></font>
+</code> </pre>
+            </div>
+          </label>
+          
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dermatite esfoliativa, nota per il suo eritema diffuso e la desquamazione della pelle, può infatti essere associata a condizioni sistemiche come tumori maligni e malattie autoimmuni. In questi casi le implicazioni per la diagnosi e la gestione possono essere significative.</font></font></p>
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Associazione con tumori maligni:</font></font></strong></p>
+<ul>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dermatite esfoliativa può essere correlata a tumori ematologici come la leucemia, tumori interni e alcuni tipi di linfomi, come la micosi fungoide. Ad esempio, la dermatomiosite, una malattia muscolare infiammatoria che spesso si presenta con una caratteristica eruzione cutanea, è associata a un rischio elevato di tumori maligni interni come tumori al seno, ai polmoni, alle ovaie e gastrointestinali. La presenza di dermatite esfoliativa può talvolta segnalare un processo neoplastico sottostante, richiedendo un'indagine approfondita per una possibile malignità.</font></font></li>
+</ul>
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Associazione con malattie autoimmuni:</font></font></strong></p>
+<ul>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sebbene i documenti specifici recuperati non descrivano in dettaglio l’associazione tra dermatite esfoliativa e disturbi autoimmuni, è noto che il sistema immunitario svolge un ruolo significativo in varie condizioni della pelle. Alcune manifestazioni dermatologiche possono essere collegate alla sensibilità al glutine, come osservato nella dermatite erpetiforme e in altre malattie autoimmuni come disturbi della tiroide, diabete mellito di tipo 1, sarcoidosi e lupus eritematoso sistemico (LES).</font></font></li>
+</ul>
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Implicazioni per la diagnosi:</font></font></strong></p>
+<ul>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Una diagnosi di dermatite esfoliativa dovrebbe spingere i medici a prendere in considerazione valutazioni per malattie sistemiche. Ciò può includere test diagnostici specifici, imaging e, potenzialmente, una biopsia cutanea per chiarire l'eziologia. Inoltre, in casi inspiegabili, è consigliabile la ricerca di tumori maligni occulti o di malattie autoimmuni.</font></font></li>
+</ul>
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Implicazioni per la gestione:</font></font></strong></p>
+<ul>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Quando vengono identificate associazioni sistemiche, la gestione della dermatite esfoliativa comporterà il trattamento della condizione sottostante insieme alla cura sintomatica della pelle. Ciò potrebbe richiedere l’integrazione di trattamenti oncologici o immunosoppressori e il lavoro con un team multidisciplinare per affrontare tutti gli aspetti della salute del paziente.</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I corticosteroidi vengono spesso utilizzati per gestire l’infiammazione cutanea e la correzione della causa identificata è una parte fondamentale della strategia di trattamento.</font></font></li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I metadati per le fonti di queste informazioni includono:</font></font></p>
+<ul>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dermatiti esfoliative e neoplasie:</font></font></strong></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : id_175_790, id_68_763</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 7</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 790, 763</font></font></li>
+</ul>
+</li>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ruolo del sistema immunitario nei disturbi della pelle:</font></font></strong></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : id_232_809</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 7</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 809</font></font></li>
+</ul>
+</li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">L’associazione tra dermatite esfoliativa e condizioni sistemiche sottolinea la necessità di una valutazione medica completa e di un approccio integrato alla gestione. I medici dovrebbero rimanere vigili per le malattie sistemiche nei pazienti che presentano dermatite esfoliativa, in particolare quando la condizione è grave o refrattaria ai trattamenti dermatologici standard.
+          </font></font></p>
+</md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/user-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">User</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Quali sono i principali fattori di rischio associati alla denutrizione?
+          </font></font></p>
+</md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"></md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+        <div class="mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+	
+	Chiamiamo MedQuery con le seguenti query:
+	
+
+	</font></font><md-block rendered="content"><ul>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">principali fattori di rischio di denutrizione</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cause della denutrizione</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cosa porta alla denutrizione</font></font><br></p>
+</li>
+</ul>
+</md-block>
+	</div>
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+        
+      
+        
+          
+          <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/tool-1.png">
+        
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MedQuery</font></font></span> <!-- Add your desired name here -->
+          
+        
+      
+        
+        <div class="mt-4">
+          <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Uscita funzione:</font></font></p>
+          
+          <label>
+            <input class="peer/showLabel absolute scale-0" type="checkbox">
+            <div class="expand-collapse-box text-wrap max-h-of-4-lines max-w-max overflow-hidden shadow-lg transition-all peer-checked/showLabel:max-h-max">
+              <span class="flex cursor-pointer items-center font-bold show-output-color"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vedi altro</font></font></span>
+              <pre class="bg-[#2f2f2f]"> <code>-----------------------------------<font></font>
+RESULT NUMBER: 0<font></font>
+<font></font>
+<font></font>
+ID: id_49_70<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 70<font></font>
+   start_page_number: 70<font></font>
+   summary: Undernutrition symptoms vary by cause.<font></font>
+Content: **Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms vary depending on the cause and type of undernutrition (see p. 15 and Chs. 4 and 5).<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_50_71<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 71<font></font>
+   start_page_number: 71<font></font>
+   summary: Undernutrition assessment in medical history.<font></font>
+Content: **History:**History should include questions about dietary intake (see<font></font>
+Fig. 2-1), recent changes in weight, and risk factors for undernutrition, including drug and alcohol use.<font></font>
+Unintentional loss of ≥ 10% of usual body weight during a 3-mo period indicates a high probability of<font></font>
+undernutrition. Social history should include questions about whether money is available for food and<font></font>
+whether the patient can shop and cook.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_97_79<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 79<font></font>
+   start_page_number: 79<font></font>
+   summary: Undernutrition decreases RMR by 20%.<font></font>
+Content: Undernutrition can decrease RMR up to 20%. Conditions that increase metabolic stress (eg, critical<font></font>
+illness, infection, inflammation, trauma, surgery) can increase RMR but rarely by &gt; 50%.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_284_121<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 121<font></font>
+   start_page_number: 121<font></font>
+   summary: Family history, waist circumference, triglycerides.<font></font>
+Content: • Other risk factors, particularly a family history of type 2 diabetes or premature cardiovascular disease&lt;br&gt;&lt;br&gt;• Waist circumference&lt;br&gt;&lt;br&gt;• Serum triglycerides<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_57_72<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 72<font></font>
+   start_page_number: 72<font></font>
+   summary: Decrease in lymphocytes due to undernutrition.<font></font>
+Content: Total lymphocyte count, which often decreases as undernutrition progresses, may be determined.<font></font>
+Undernutrition causes a marked decline in CD4+ T lymphocytes, so this count may not be useful in<font></font>
+patients who have AIDS.<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 1<font></font>
+<font></font>
+<font></font>
+ID: id_49_70<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 70<font></font>
+   start_page_number: 70<font></font>
+   summary: Undernutrition symptoms vary by cause.<font></font>
+Content: **Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms vary depending on the cause and type of undernutrition (see p. 15 and Chs. 4 and 5).<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_57_72<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 72<font></font>
+   start_page_number: 72<font></font>
+   summary: Decrease in lymphocytes due to undernutrition.<font></font>
+Content: Total lymphocyte count, which often decreases as undernutrition progresses, may be determined.<font></font>
+Undernutrition causes a marked decline in CD4+ T lymphocytes, so this count may not be useful in<font></font>
+patients who have AIDS.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_97_79<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 79<font></font>
+   start_page_number: 79<font></font>
+   summary: Undernutrition decreases RMR by 20%.<font></font>
+Content: Undernutrition can decrease RMR up to 20%. Conditions that increase metabolic stress (eg, critical<font></font>
+illness, infection, inflammation, trauma, surgery) can increase RMR but rarely by &gt; 50%.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_58_72<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 72<font></font>
+   start_page_number: 72<font></font>
+   summary: Skin tests detect impaired immunity.<font></font>
+Content: Skin tests using antigens can detect impaired cell-mediated immunity in PEU and in some other disorders<font></font>
+of undernutrition (see p.<font></font>
+1098).<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_41_69<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 69<font></font>
+   start_page_number: 69<font></font>
+   summary: Sarcopenia in old age.<font></font>
+Content: **Old age:**Aging—even when disease or dietary deficiency is absent—leads to sarcopenia (progressive<font></font>
+loss of lean body mass), starting after age 40 and eventually amounting to a muscle loss of about 10 kg<font></font>
+(22 lb) in men and 5 kg (11 lb) in women. Undernutrition contributes to sarcopenia, and sarcopenia<font></font>
+accounts for many of the complications of undernutrition (eg, decreased nitrogen balance, increased<font></font>
+susceptibility to infections). Causes of sarcopenia include the following:&lt;br&gt;&lt;br&gt;• Decreased physical activity&lt;br&gt;&lt;br&gt;• Decreased food intake&lt;br&gt;&lt;br&gt;• Increased levels of cytokines (particularly interleukin-6)&lt;br&gt;&lt;br&gt;• Decreased levels of growth hormone and mechano growth factor (insulin-like growth factor-3)&lt;br&gt;&lt;br&gt;• In men, decreasing androgen levels&lt;br&gt;&lt;br&gt;Aging decreases basal metabolic rate (due mainly to decreased fat-free mass), total body weight, height,<font></font>
+and skeletal mass; aging increases mean body fat (as a percentage of body weight) to about 30% (from<font></font>
+20%) in men and to 40% (from 27%) in women.<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 2<font></font>
+<font></font>
+<font></font>
+ID: id_49_70<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 70<font></font>
+   start_page_number: 70<font></font>
+   summary: Undernutrition symptoms vary by cause.<font></font>
+Content: **Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms vary depending on the cause and type of undernutrition (see p. 15 and Chs. 4 and 5).<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_57_72<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 72<font></font>
+   start_page_number: 72<font></font>
+   summary: Decrease in lymphocytes due to undernutrition.<font></font>
+Content: Total lymphocyte count, which often decreases as undernutrition progresses, may be determined.<font></font>
+Undernutrition causes a marked decline in CD4+ T lymphocytes, so this count may not be useful in<font></font>
+patients who have AIDS.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_97_79<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 79<font></font>
+   start_page_number: 79<font></font>
+   summary: Undernutrition decreases RMR by 20%.<font></font>
+Content: Undernutrition can decrease RMR up to 20%. Conditions that increase metabolic stress (eg, critical<font></font>
+illness, infection, inflammation, trauma, surgery) can increase RMR but rarely by &gt; 50%.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_58_72<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 72<font></font>
+   start_page_number: 72<font></font>
+   summary: Skin tests detect impaired immunity.<font></font>
+Content: Skin tests using antigens can detect impaired cell-mediated immunity in PEU and in some other disorders<font></font>
+of undernutrition (see p.<font></font>
+1098).<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_29_66<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 66<font></font>
+   start_page_number: 66<font></font>
+   summary: Nutrition-related chronic disorders and restrictions.<font></font>
+Content: Overnutrition may contribute to chronic disorders, such as cancer, hypertension, obesity, diabetes<font></font>
+mellitus, and coronary artery disease. Dietary restrictions are necessary in many hereditary metabolic<font></font>
+disorders (eg, galactosemia, phenylketonuria).<font></font>
+<font></font>
+<font></font>
+<font></font>
+</code> </pre>
+            </div>
+          </label>
+          
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I principali fattori di rischio associati alla denutrizione includono:</font></font></p>
+<ol>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Assunzione dietetica inadeguata:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ciò potrebbe essere dovuto a una varietà di fattori, come la povertà, la mancanza di accesso al cibo, pratiche culturali o scelte dietetiche personali.</font></font></p>
+</li>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fattori socioeconomici:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> elementi della storia sociale come l’instabilità finanziaria che influenza la capacità di acquistare cibo sufficiente e le questioni relative alla capacità di fare la spesa e cucinare possono essere rilevanti.</font></font></p>
+</li>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vecchiaia:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> man mano che le persone invecchiano, possono sperimentare una diminuzione naturale della massa muscolare nota come sarcopenia. Le cause di sarcopenia legate alla denutrizione comprendono diminuzione dell’attività fisica, diminuzione dell’assunzione di cibo, aumento dei livelli di citochine proinfiammatorie e cambiamenti ormonali.</font></font></p>
+</li>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Stati patologici:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> condizioni che aumentano lo stress metabolico, come malattie critiche, infezioni, infiammazioni, traumi e interventi chirurgici, possono aumentare il tasso metabolico a riposo (RMR) e il fabbisogno calorico, portando alla denutrizione se questi bisogni non vengono soddisfatti.</font></font></p>
+</li>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Funzione immunitaria compromessa:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> la denutrizione può portare a un marcato declino della funzione immunitaria, inclusa una diminuzione della conta totale dei linfociti e dei linfociti T CD4+, che può compromettere ulteriormente lo stato nutrizionale a causa della maggiore suscettibilità alle infezioni.</font></font></p>
+</li>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Uso di sostanze:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> i fattori di rischio per la denutrizione includono l'uso di droghe e alcol, che possono influenzare l'appetito, l'assorbimento dei nutrienti e portare alla malnutrizione.</font></font></p>
+</li>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Disturbi cronici:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> condizioni come cancro, ipertensione, obesità, diabete mellito e malattia coronarica possono derivare da un’ipernutrizione ma richiedono anche restrizioni dietetiche che, se non gestite attentamente, possono portare alla denutrizione.</font></font></p>
+</li>
+</ol>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Le informazioni principali sono state ottenute dalle seguenti fonti:</font></font></p>
+<ul>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I sintomi variano in base alle cause della denutrizione, descritte nel Capitolo 1, alle pagine 15, 4 e 5</font></font><ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : id_49_70</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 1</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> :70</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Una valutazione storica può includere domande sull’assunzione alimentare e sui cambiamenti di peso, evidenziando i fattori sociali che influenzano la nutrizione</font></font><ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : id_50_71</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 1</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 71</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La sarcopenia negli anziani e i fattori che contribuiscono ad essa possono influenzare la denutrizione</font></font><ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : id_41_69</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 1</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 69</font></font></li>
+</ul>
+</li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Riconoscere e affrontare questi fattori di rischio può aiutare nella prevenzione e nel trattamento della denutrizione. Garantire un’adeguata assunzione di nutrienti e gestire i fattori sociodemografici e legati alla salute sono passi essenziali nella lotta alla denutrizione.
+          </font></font></p>
+</md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/user-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">User</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">In che modo l’invecchiamento contribuisce alla denutrizione, in particolare nella popolazione anziana?
+          </font></font></p>
+</md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"></md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+        <div class="mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+	
+	Chiamiamo MedQuery con le seguenti query:
+	
+
+	</font></font><md-block rendered="content"><ul>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">invecchiamento e denutrizione</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">in che modo l'invecchiamento porta alla denutrizione</font></font><br></p>
+</li>
+<li><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">denutrizione nella popolazione anziana</font></font><br></p>
+</li>
+</ul>
+</md-block>
+	</div>
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+        
+      
+        
+          
+          <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/tool-1.png">
+        
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MedQuery</font></font></span> <!-- Add your desired name here -->
+          
+        
+      
+        
+        <div class="mt-4">
+          <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Uscita funzione:</font></font></p>
+          
+          <label>
+            <input class="peer/showLabel absolute scale-0" type="checkbox">
+            <div class="expand-collapse-box text-wrap max-h-of-4-lines max-w-max overflow-hidden shadow-lg transition-all peer-checked/showLabel:max-h-max">
+              <span class="flex cursor-pointer items-center font-bold show-output-color"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vedi altro</font></font></span>
+              <pre class="bg-[#2f2f2f]"> <code>-----------------------------------<font></font>
+RESULT NUMBER: 0<font></font>
+<font></font>
+<font></font>
+ID: id_49_70<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 70<font></font>
+   start_page_number: 70<font></font>
+   summary: Undernutrition symptoms vary by cause.<font></font>
+Content: **Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms vary depending on the cause and type of undernutrition (see p. 15 and Chs. 4 and 5).<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_41_69<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 69<font></font>
+   start_page_number: 69<font></font>
+   summary: Sarcopenia in old age.<font></font>
+Content: **Old age:**Aging—even when disease or dietary deficiency is absent—leads to sarcopenia (progressive<font></font>
+loss of lean body mass), starting after age 40 and eventually amounting to a muscle loss of about 10 kg<font></font>
+(22 lb) in men and 5 kg (11 lb) in women. Undernutrition contributes to sarcopenia, and sarcopenia<font></font>
+accounts for many of the complications of undernutrition (eg, decreased nitrogen balance, increased<font></font>
+susceptibility to infections). Causes of sarcopenia include the following:&lt;br&gt;&lt;br&gt;• Decreased physical activity&lt;br&gt;&lt;br&gt;• Decreased food intake&lt;br&gt;&lt;br&gt;• Increased levels of cytokines (particularly interleukin-6)&lt;br&gt;&lt;br&gt;• Decreased levels of growth hormone and mechano growth factor (insulin-like growth factor-3)&lt;br&gt;&lt;br&gt;• In men, decreasing androgen levels&lt;br&gt;&lt;br&gt;Aging decreases basal metabolic rate (due mainly to decreased fat-free mass), total body weight, height,<font></font>
+and skeletal mass; aging increases mean body fat (as a percentage of body weight) to about 30% (from<font></font>
+20%) in men and to 40% (from 27%) in women.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_57_72<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 72<font></font>
+   start_page_number: 72<font></font>
+   summary: Decrease in lymphocytes due to undernutrition.<font></font>
+Content: Total lymphocyte count, which often decreases as undernutrition progresses, may be determined.<font></font>
+Undernutrition causes a marked decline in CD4+ T lymphocytes, so this count may not be useful in<font></font>
+patients who have AIDS.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_97_79<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 79<font></font>
+   start_page_number: 79<font></font>
+   summary: Undernutrition decreases RMR by 20%.<font></font>
+Content: Undernutrition can decrease RMR up to 20%. Conditions that increase metabolic stress (eg, critical<font></font>
+illness, infection, inflammation, trauma, surgery) can increase RMR but rarely by &gt; 50%.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_58_72<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 72<font></font>
+   start_page_number: 72<font></font>
+   summary: Skin tests detect impaired immunity.<font></font>
+Content: Skin tests using antigens can detect impaired cell-mediated immunity in PEU and in some other disorders<font></font>
+of undernutrition (see p.<font></font>
+1098).<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 1<font></font>
+<font></font>
+<font></font>
+ID: id_49_70<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 70<font></font>
+   start_page_number: 70<font></font>
+   summary: Undernutrition symptoms vary by cause.<font></font>
+Content: **Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms vary depending on the cause and type of undernutrition (see p. 15 and Chs. 4 and 5).<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_41_69<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 69<font></font>
+   start_page_number: 69<font></font>
+   summary: Sarcopenia in old age.<font></font>
+Content: **Old age:**Aging—even when disease or dietary deficiency is absent—leads to sarcopenia (progressive<font></font>
+loss of lean body mass), starting after age 40 and eventually amounting to a muscle loss of about 10 kg<font></font>
+(22 lb) in men and 5 kg (11 lb) in women. Undernutrition contributes to sarcopenia, and sarcopenia<font></font>
+accounts for many of the complications of undernutrition (eg, decreased nitrogen balance, increased<font></font>
+susceptibility to infections). Causes of sarcopenia include the following:&lt;br&gt;&lt;br&gt;• Decreased physical activity&lt;br&gt;&lt;br&gt;• Decreased food intake&lt;br&gt;&lt;br&gt;• Increased levels of cytokines (particularly interleukin-6)&lt;br&gt;&lt;br&gt;• Decreased levels of growth hormone and mechano growth factor (insulin-like growth factor-3)&lt;br&gt;&lt;br&gt;• In men, decreasing androgen levels&lt;br&gt;&lt;br&gt;Aging decreases basal metabolic rate (due mainly to decreased fat-free mass), total body weight, height,<font></font>
+and skeletal mass; aging increases mean body fat (as a percentage of body weight) to about 30% (from<font></font>
+20%) in men and to 40% (from 27%) in women.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_97_79<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 79<font></font>
+   start_page_number: 79<font></font>
+   summary: Undernutrition decreases RMR by 20%.<font></font>
+Content: Undernutrition can decrease RMR up to 20%. Conditions that increase metabolic stress (eg, critical<font></font>
+illness, infection, inflammation, trauma, surgery) can increase RMR but rarely by &gt; 50%.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_57_72<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 72<font></font>
+   start_page_number: 72<font></font>
+   summary: Decrease in lymphocytes due to undernutrition.<font></font>
+Content: Total lymphocyte count, which often decreases as undernutrition progresses, may be determined.<font></font>
+Undernutrition causes a marked decline in CD4+ T lymphocytes, so this count may not be useful in<font></font>
+patients who have AIDS.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_138_86<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 86<font></font>
+   start_page_number: 86<font></font>
+   summary: Vitamin deficiencies and toxicity risks.<font></font>
+Content: In developed countries, vitamin deficiencies result mainly from poverty, food faddism, drugs (see p. 7 and<font></font>
+Table 4-3), alcoholism, or prolonged and inadequately supplemented parenteral feeding. Mild vitamin<font></font>
+deficiency is common among frail and institutionalized elderly people who have protein-energy<font></font>
+undernutrition. In developing countries, deficiencies can result from lack of access to nutrients.<font></font>
+Deficiencies of water-soluble vitamins (except vitamin B12) may develop after weeks to months of<font></font>
+undernutrition. Deficiencies of fat-soluble vitamins and of vitamin B12 take &gt; 1 yr to develop because the<font></font>
+body stores them in relatively large amounts. Intake of vitamins sufficient to prevent classic vitamin<font></font>
+deficiencies (like scurvy or beriberi) may not be adequate for optimum health. This area remains one of<font></font>
+controversy and active research.&lt;br&gt;&lt;br&gt;Vitamin dependency results from a genetic defect involving metabolism of a vitamin. In some cases,<font></font>
+vitamin doses as high as 1000 times the DRI improve function of the altered metabolic pathway. Vitamin<font></font>
+toxicity (hypervitaminosis) usually results from taking megadoses of vitamin A, D, C, B6, or niacin.<font></font>
+<font></font>
+<font></font>
+<font></font>
+-----------------------------------<font></font>
+RESULT NUMBER: 2<font></font>
+<font></font>
+<font></font>
+ID: id_49_70<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 70<font></font>
+   start_page_number: 70<font></font>
+   summary: Undernutrition symptoms vary by cause.<font></font>
+Content: **Symptoms and Signs**&lt;br&gt;&lt;br&gt;Symptoms vary depending on the cause and type of undernutrition (see p. 15 and Chs. 4 and 5).<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_41_69<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 69<font></font>
+   start_page_number: 69<font></font>
+   summary: Sarcopenia in old age.<font></font>
+Content: **Old age:**Aging—even when disease or dietary deficiency is absent—leads to sarcopenia (progressive<font></font>
+loss of lean body mass), starting after age 40 and eventually amounting to a muscle loss of about 10 kg<font></font>
+(22 lb) in men and 5 kg (11 lb) in women. Undernutrition contributes to sarcopenia, and sarcopenia<font></font>
+accounts for many of the complications of undernutrition (eg, decreased nitrogen balance, increased<font></font>
+susceptibility to infections). Causes of sarcopenia include the following:&lt;br&gt;&lt;br&gt;• Decreased physical activity&lt;br&gt;&lt;br&gt;• Decreased food intake&lt;br&gt;&lt;br&gt;• Increased levels of cytokines (particularly interleukin-6)&lt;br&gt;&lt;br&gt;• Decreased levels of growth hormone and mechano growth factor (insulin-like growth factor-3)&lt;br&gt;&lt;br&gt;• In men, decreasing androgen levels&lt;br&gt;&lt;br&gt;Aging decreases basal metabolic rate (due mainly to decreased fat-free mass), total body weight, height,<font></font>
+and skeletal mass; aging increases mean body fat (as a percentage of body weight) to about 30% (from<font></font>
+20%) in men and to 40% (from 27%) in women.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_97_79<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 79<font></font>
+   start_page_number: 79<font></font>
+   summary: Undernutrition decreases RMR by 20%.<font></font>
+Content: Undernutrition can decrease RMR up to 20%. Conditions that increase metabolic stress (eg, critical<font></font>
+illness, infection, inflammation, trauma, surgery) can increase RMR but rarely by &gt; 50%.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_57_72<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 72<font></font>
+   start_page_number: 72<font></font>
+   summary: Decrease in lymphocytes due to undernutrition.<font></font>
+Content: Total lymphocyte count, which often decreases as undernutrition progresses, may be determined.<font></font>
+Undernutrition causes a marked decline in CD4+ T lymphocytes, so this count may not be useful in<font></font>
+patients who have AIDS.<font></font>
+<font></font>
+<font></font>
+<font></font>
+ID: id_138_86<font></font>
+METADATA:<font></font>
+   Chapter: 1<font></font>
+   end_page_number: 86<font></font>
+   start_page_number: 86<font></font>
+   summary: Vitamin deficiencies and toxicity risks.<font></font>
+Content: In developed countries, vitamin deficiencies result mainly from poverty, food faddism, drugs (see p. 7 and<font></font>
+Table 4-3), alcoholism, or prolonged and inadequately supplemented parenteral feeding. Mild vitamin<font></font>
+deficiency is common among frail and institutionalized elderly people who have protein-energy<font></font>
+undernutrition. In developing countries, deficiencies can result from lack of access to nutrients.<font></font>
+Deficiencies of water-soluble vitamins (except vitamin B12) may develop after weeks to months of<font></font>
+undernutrition. Deficiencies of fat-soluble vitamins and of vitamin B12 take &gt; 1 yr to develop because the<font></font>
+body stores them in relatively large amounts. Intake of vitamins sufficient to prevent classic vitamin<font></font>
+deficiencies (like scurvy or beriberi) may not be adequate for optimum health. This area remains one of<font></font>
+controversy and active research.&lt;br&gt;&lt;br&gt;Vitamin dependency results from a genetic defect involving metabolism of a vitamin. In some cases,<font></font>
+vitamin doses as high as 1000 times the DRI improve function of the altered metabolic pathway. Vitamin<font></font>
+toxicity (hypervitaminosis) usually results from taking megadoses of vitamin A, D, C, B6, or niacin.<font></font>
+<font></font>
+<font></font>
+<font></font>
+</code> </pre>
+            </div>
+          </label>
+          
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">L’invecchiamento contribuisce alla denutrizione nella popolazione anziana attraverso diversi meccanismi:</font></font></p>
+<ol>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sarcopenia:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> l’invecchiamento porta alla sarcopenia, che è la progressiva perdita di massa magra. Questa perdita inizia dopo i 40 anni, con gli uomini che perdono circa 10 kg e le donne circa 5 kg di massa muscolare nel tempo. La sarcopenia può contribuire alla denutrizione poiché diminuisce il bilancio dell’azoto e aumenta la suscettibilità alle infezioni. La ridotta attività fisica, la ridotta assunzione di cibo, l’aumento dei livelli di citochine proinfiammatorie, i cambiamenti ormonali e la diminuzione dei fattori di crescita contribuiscono alla sarcopenia.</font></font></p>
+</li>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cambiamenti metabolici:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> man mano che le persone invecchiano, si verifica un declino naturale del tasso metabolico basale (BMR), principalmente a causa di una diminuzione della massa magra. L’invecchiamento influenza anche la composizione corporea complessiva aumentando il grasso corporeo medio come percentuale del peso corporeo, che può influenzare lo stato nutrizionale.</font></font></p>
+</li>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Diminuito assorbimento dei nutrienti:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> gli individui anziani possono avere una ridotta capacità di assorbire i nutrienti a causa di cambiamenti nel sistema digestivo, contribuendo alla denutrizione.</font></font></p>
+</li>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Condizioni di salute croniche:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> gli anziani hanno spesso condizioni di salute croniche che possono influenzare l’appetito, alterare il metabolismo o aumentare il fabbisogno di nutrienti, portando a uno squilibrio tra l’assunzione di nutrienti e le richieste del corpo.</font></font></p>
+</li>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fattori sociali ed economici:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> gli anziani potrebbero dover affrontare ostacoli sociali ed economici per ottenere un’alimentazione adeguata, compresi vincoli finanziari, mancanza di accesso a cibo nutriente o ridotta capacità di fare la spesa e preparare i pasti.</font></font></p>
+</li>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Percezione sensoriale alterata:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> i cambiamenti nel gusto e nell’olfatto possono diminuire il desiderio di mangiare, portando a una ridotta assunzione di cibo e a una possibile denutrizione.</font></font></p>
+</li>
+<li><p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Farmaci:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> gli anziani spesso assumono più farmaci che potrebbero interferire con l’assorbimento dei nutrienti o con l’appetito.</font></font></p>
+</li>
+</ol>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Le informazioni del documento forniscono una prospettiva dettagliata su come l’invecchiamento contribuisce alla denutrizione:</font></font></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Denutrizione e sarcopenia nell’invecchiamento:</font></font></strong><ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : id_41_69</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 1</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 69</font></font></li>
+</ul>
+</li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Affrontare la denutrizione negli anziani richiede un approccio articolato che includa il supporto nutrizionale, la gestione delle condizioni di salute croniche e la risoluzione delle questioni sociali ed economiche che limitano l’accesso al cibo nutriente. Il monitoraggio della sarcopenia e la fornitura di interventi quali programmi di attività fisica e un’alimentazione adeguata possono aiutare a prevenire la progressione della denutrizione nella popolazione anziana.
+          </font></font></p>
+</md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/user-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">User</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Combina i risultati di tutte le domande che ho posto sotto forma di tabella con riferimenti.
+          </font></font></p>
+</md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+  
+  
+  
+  
+  
+  <div class="response-div-margin overflow-y-auto bg-slate-300 text-sm leading-6 text-[#2f2f2f] shadow-md sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-300">
+
+    <div class="flex flex-row px-4 py-8 sm:px-6">
+
+      
+      <img class="mr-2 flex h-8 w-8 rounded-full sm:mr-4" src="static/resources/data-expert-1.png">
+      
+      
+      <!-- Add a div container for the name and the text, maintaining alignment and spacing -->
+      <div class="flex flex-col justify-center">
+      
+        <!-- Name next to the avatar -->
+        
+          <span class="font-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataExpert</font></font></span> <!-- Add your desired name here -->
+        
+      
+        
+        <!-- Question or message content -->
+        <div class="flex max-w-3xl items-center">
+          <md-block rendered="content"><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ecco una tabella combinata che riassume i risultati delle domande riguardanti la dermatite esfoliativa, la sua differenziazione da altre forme di dermatite, le sue associazioni sistemiche e i fattori di rischio per la denutrizione, compresi gli aspetti legati all'età:</font></font></p>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Argomento</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Descrizione</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Riferimento</font></font></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sintomi della dermatite esfoliativa</font></font></strong></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prurito, malessere, brividi, eritema diffuso, estesa desquamazione epidermica che ricopre il corpo, termoregolazione anormale, carenze nutrizionali, aumento del tasso metabolico e ipovolemia.</font></font></td>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 7 </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 790</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Differenziare le forme di dermatite</font></font></strong></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dermatite esfoliativa comporta eritema cutaneo diffuso e desquamazione, la dermatite atopica si presenta con lesioni pruriginose cronicamente recidivanti e la dermatite da contatto deriva dal contatto della pelle con sostanze irritanti o allergeni.</font></font></td>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 7 </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 790,785, 788</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Associazioni sistemiche</font></font></strong></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dermatite esfoliativa è correlata a disturbi cutanei preesistenti, reazioni avverse ai farmaci, tumori (leucemia, linfoma) e può segnalare tumori maligni interni o rappresentare un marcatore per essi.</font></font></td>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 7 </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 790</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fattori di rischio di denutrizione</font></font></strong></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Assunzione alimentare inadeguata, fattori socioeconomici, uso di sostanze, declino della funzione immunitaria, condizioni di salute croniche, stati patologici che aumentano lo stress metabolico.</font></font></td>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 1 </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : 71, 79</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Invecchiamento e denutrizione</font></font></strong></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">L’invecchiamento porta alla sarcopenia, influenzando la nutrizione; la diminuzione del BMR dovuta alla perdita di massa muscolare; aumento della percentuale di grasso corporeo; ridotto assorbimento dei nutrienti; percezione sensoriale alterata; condizioni di salute croniche prevalenti con la vecchiaia.</font></font></td>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitolo:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 1 </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pagina:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 69</font></font></td>
+</tr>
+</tbody></table>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Questa tabella elenca i risultati estesi dei contenuti recuperati, che coprono i sintomi e le associazioni della dermatite esfoliativa, come differisce dalla dermatite atopica e da contatto, le condizioni sistemiche ad essa correlate e un riepilogo completo dei fattori di rischio per la denutrizione con particolare attenzione a come l’invecchiamento contribuisce a questa condizione. I riferimenti forniscono una fonte di informazioni dettagliate per ciascun punto menzionato.
+          </font></font></p>
+</md-block>
+        </div>
+        
+      
+        <!-- Optional Code Block -->
+        
+      
+      </div>
+      </div>
+      </div>
+      
+      </div>
+      
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+    // Loop through each markdown text and render them using marked.js
+    document.querySelectorAll('.markdown-text').forEach((element) => {
+      var markdownText = element.innerText;
+      var html = marked(markdownText);
+      element.innerHTML = html;
+      element.style.display = 'block'; // Show the element after rendering
+    });
+  </script>
+
+</body></html>
