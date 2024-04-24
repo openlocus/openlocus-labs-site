@@ -337,6 +337,12 @@ pre {
   margin: 0;
 } */
 
+.context-style {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
 fieldset {
   margin: 0;
   padding: 0;
